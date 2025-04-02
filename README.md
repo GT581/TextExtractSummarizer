@@ -40,3 +40,16 @@ API for summarizing content from multiple sources and extracting specific inform
    ```bash
    pip install -r requirements.txt
    ```
+
+## Running the Application
+
+1. **Start the server**:
+   ```bash
+   uvicorn app.main:app --reload
+   ```
+
+2. **Access the API documentation**:
+   Open your browser and navigate to:
+   ```
+   http://localhost:8000/api/docs
+   ```
