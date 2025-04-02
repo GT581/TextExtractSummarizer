@@ -1,0 +1,1 @@
+# FastAPI: app, router, settings, CORS, docs
