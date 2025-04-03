@@ -41,7 +41,7 @@ API for summarizing content from multiple sources and extracting specific inform
    pip install -r requirements.txt
    ```
 
-## Running the Application
+## Running the API
 
 1. **Start the server**:
    ```bash
