@@ -28,7 +28,8 @@ text_extract_summarizer/
 │   │   └── text_extraction.py  # Text extraction logic
 │   ├── utils/
 │   │   ├── __init__.py
-│   │   ├── text_processing.py  # Text processing utilities
+│   │   ├── text_utils.py       # Text processing utilities
+│   │   ├── pdf_utils.py        # PDF processing utilities
 │   │   └── web_scraper.py      # Web scraping utilities
 │   ├── __init__.py
 │   └── main.py                 # FastAPI application setup
