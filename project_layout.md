@@ -30,7 +30,6 @@ text_extract_summarizer/
 │   ├── utils/
 │   │   ├── __init__.py
 │   │   ├── text_utils.py       # Text processing utilities
-│   │   ├── pdf_utils.py        # PDF processing utilities
 │   ├── __init__.py
 │   └── main.py                 # FastAPI application setup
 ├── uploads/                    # Temporary upload directory
