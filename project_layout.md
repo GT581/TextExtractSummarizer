@@ -24,13 +24,13 @@ text_extract_summarizer/
 │   │   ├── __init__.py
 │   │   ├── llm_provider.py     # LLM integration
 │   │   ├── pdf_parser.py       # PDF parsing functionality
+│   │   ├── web_scraper.py      # Web scraping functionality
 │   │   ├── summarization.py    # Content summarization
 │   │   └── text_extraction.py  # Text extraction logic
 │   ├── utils/
 │   │   ├── __init__.py
 │   │   ├── text_utils.py       # Text processing utilities
 │   │   ├── pdf_utils.py        # PDF processing utilities
-│   │   └── web_scraper.py      # Web scraping utilities
 │   ├── __init__.py
 │   └── main.py                 # FastAPI application setup
 ├── uploads/                    # Temporary upload directory
