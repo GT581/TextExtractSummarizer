@@ -16,6 +16,7 @@ text_extract_summarizer/
 │   │   └── logging.py          # Logging configuration
 │   ├── models/
 │   │   ├── __init__.py
+│   │   ├── text.py             # Data models for text
 │   │   ├── pdf_document.py     # Data models for documents
 │   │   └── text_extraction.py  # Data models for extraction
 │   ├── services/
