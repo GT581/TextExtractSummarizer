@@ -19,7 +19,7 @@ class LLMProvider(ABC):
     """
     
     @abstractmethod
-    def generate_text(self, prompt: str, **kwargs) -> str:
+    async def generate_text(self, prompt: str, **kwargs) -> str:
         """
         Generate text based on a prompt.
         
@@ -33,7 +33,7 @@ class LLMProvider(ABC):
         pass
     
     @abstractmethod
-    def generate_chat_response(self, messages: List[Dict[str, str]], **kwargs) -> str:
+    async def generate_chat_response(self, messages: List[Dict[str, str]], **kwargs) -> str:
         """
         Generate a response based on a conversation history.
         
@@ -60,14 +60,14 @@ class GoogleGeminiProvider(LLMProvider):
         
         # Initialize LangChain Gemini client
         self.llm = ChatGoogleGenerativeAI(
-            model=settings.MODEL_NAME,
+            model=settings.GOOGLE_MODEL_NAME,
             google_api_key=settings.GOOGLE_API_KEY,
             temperature=settings.LLM_TEMPERATURE,
             top_p=settings.LLM_TOP_P,
             max_output_tokens=settings.LLM_MAX_TOKENS,
         )
     
-    def generate_text(self, prompt: str) -> str:
+    async def generate_text(self, prompt: str) -> str:
         """
         Generate text using Google Gemini.
         
@@ -86,7 +86,7 @@ class GoogleGeminiProvider(LLMProvider):
             logger.error(f"Error generating text with Google Gemini: {str(e)}")
             return f"Error generating text: {str(e)}"
     
-    def generate_chat_response(self, messages: List[Dict[str, str]]) -> str:
+    async def generate_chat_response(self, messages: List[Dict[str, str]]) -> str:
         """
         Generate a response using Google Gemini chat mode.
         
@@ -112,3 +112,39 @@ class GoogleGeminiProvider(LLMProvider):
         except Exception as e:
             logger.error(f"Error generating chat response with Google Gemini: {str(e)}")
             return f"Error generating response: {str(e)}"
+
+
+class LLMProviderFactory:
+    """
+    Factory class for creating LLM provider instances.
+    
+    This class provides a centralized way to create instances of different
+    LLM providers based on configuration settings.
+    """
+    
+    @staticmethod
+    def get_provider(provider_name: str = None) -> LLMProvider:
+        """
+        Get an instance of an LLM provider.
+        
+        Args:
+            provider_name (str, optional): Name of the provider to use.
+                If None, the default provider from settings will be used.
+                
+        Returns:
+            LLMProvider: An instance of the specified LLM provider
+            
+        Raises:
+            ValueError: If the specified provider is not supported
+        """
+        settings = get_settings()
+        
+        # If no provider name is specified, use the default from settings
+        if provider_name is None:
+            provider_name = settings.DEFAULT_LLM_PROVIDER
+        
+        # Create the appropriate provider based on the name
+        if provider_name.lower() in ["gemini", "google", "google_gemini"]:
+            return GoogleGeminiProvider()
+        else:
+            raise ValueError(f"Unsupported LLM provider: {provider_name}")
