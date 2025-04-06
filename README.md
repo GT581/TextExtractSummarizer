@@ -51,5 +51,5 @@ API for summarizing content from multiple sources and extracting specific inform
 2. **Access the API documentation**:
    Open your browser and navigate to:
    ```
-   http://localhost:8000/api/docs
+   http://localhost:8000/docs
    ```
