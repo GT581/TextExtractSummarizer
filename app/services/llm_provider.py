@@ -80,12 +80,14 @@ class GoogleGeminiProvider(LLMProvider):
         try:
             messages = [HumanMessage(content=prompt)]
             response = self.llm.invoke(messages)
+
             return response.content
             
         except Exception as e:
             logger.error(f"Error generating text with Google Gemini: {str(e)}")
+
             return f"Error generating text: {str(e)}"
-    
+   
     async def generate_chat_response(self, messages: List[Dict[str, str]]) -> str:
         """
         Generate a response using Google Gemini chat mode.
@@ -107,10 +109,12 @@ class GoogleGeminiProvider(LLMProvider):
                     langchain_messages.append(HumanMessage(content=message["content"]))
             
             response = self.llm.invoke(langchain_messages)
+
             return response.content
             
         except Exception as e:
             logger.error(f"Error generating chat response with Google Gemini: {str(e)}")
+
             return f"Error generating response: {str(e)}"
 
 
@@ -143,8 +147,9 @@ class LLMProviderFactory:
         if provider_name is None:
             provider_name = settings.DEFAULT_LLM_PROVIDER
         
-        # Create the appropriate provider based on the name
+        # Create the appropriate provider based on the name(s)
         if provider_name.lower() in ["gemini", "google", "google_gemini"]:
+
             return GoogleGeminiProvider()
         else:
             raise ValueError(f"Unsupported LLM provider: {provider_name}")

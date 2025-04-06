@@ -58,7 +58,6 @@ class PDFParser:
             
         return full_text, line_to_page_map
 
-
     def extract_metadata(self, file_path: str) -> PDFMetadata:
         """
         Extract metadata from a PDF file.
@@ -75,7 +74,7 @@ class PDFParser:
             doc = pymupdf.open(file_path)
             metadata.page_count = doc.page_count
             
-            # Extract standard metadata
+            # Extract standard metadata with PyMuPDF
             meta = doc.metadata
             if meta:
                 metadata.title = meta.get("title", None)
@@ -97,7 +96,6 @@ class PDFParser:
             logger.error(f"Error extracting metadata with PyMuPDF: {str(e)}")
                 
         return metadata
-
 
     def extract_possible_headers(self, text: str) -> List[str]:
         """
@@ -131,7 +129,6 @@ class PDFParser:
                     break
                     
         return headers
-
 
     def identify_section_boundaries(self, text: str) -> List[Tuple[int, int, str]]:
         """
@@ -170,7 +167,6 @@ class PDFParser:
             
         return sections
 
-
     def identify_sections(self, text: str, line_to_page_map: Dict[int, int]) -> List[PDFSection]:
         """
         Identify and extract sections from the text with page numbers.
@@ -184,12 +180,11 @@ class PDFParser:
         """
         sections = []
         lines = text.split("\n")
-        
-        # Use existing function to identify section boundaries
         boundaries = self.identify_section_boundaries(text)
         
         # Create section objects with accurate page numbers
         for i, (start_idx, end_idx, header) in enumerate(boundaries):
+
             # Extract section content
             section_lines = lines[start_idx:end_idx+1]
             section_content = "\n".join(section_lines)
@@ -207,7 +202,6 @@ class PDFParser:
             sections.append(section)
         
         return sections
-
 
     def parse_pdf(self, file_path: str, filename: str) -> PDFDocument:
         """

@@ -20,7 +20,6 @@ def estimate_word_count(text: str) -> int:
 
     return len(words)
 
-
 def clean_text(text: str) -> str:
     """
     Clean and normalize plain text for LLM processing.
@@ -44,7 +43,6 @@ def clean_text(text: str) -> str:
     
     # Remove leading/trailing whitespace
     return text.strip()
-
 
 def clean_pdf_text(text: str) -> str:
     """
@@ -83,7 +81,6 @@ def clean_pdf_text(text: str) -> str:
     
     # Remove leading/trailing whitespace
     return text.strip()
-
 
 def clean_html_text(text: str) -> str:
     """
