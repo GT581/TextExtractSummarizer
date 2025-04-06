@@ -24,7 +24,7 @@ class WebScraper:
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
         }
 
-    def scrape_url(self, url: str, timeout: int = 10) -> Dict[str, Any]:
+    async def scrape_url(self, url: str, timeout: int = 10) -> Dict[str, Any]:
         """
         Scrape, clean, and return content from a URL with metadata.
         
@@ -91,19 +91,3 @@ class WebScraper:
         except Exception as e:
             logger.error(f"Error parsing content from URL {url}: {str(e)}")
             raise HTTPException(status_code=500, detail=f"Error processing content: {str(e)}")
-
-
-# Optional wrapper function for direct scraper usage
-def scrape_url(url: str) -> Dict[str, Any]:
-    """
-    Scrape content from a URL and return as a dictionary with metadata.
-    
-    Args:
-        url (str): The URL to scrape
-        
-    Returns:
-        Dict[str, Any]: Dictionary with content, title, URL, and word count
-    """
-    scraper = WebScraper()
-
-    return scraper.scrape_url(url)
