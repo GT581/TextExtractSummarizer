@@ -30,58 +30,33 @@ jobs:
           echo "No commits found in this PR"
           DESCRIPTION="### No commits found in this PR"
         else
-          # Create a temporary file for the description
+          # Initialize the PR description
+          DESCRIPTION="### Commits Included:\n"
+          
+          # Process each commit and build the description
+          # Use a temporary file to store the description
           TEMP_FILE=$(mktemp)
+          echo "$DESCRIPTION" > "$TEMP_FILE"
           
-          # Initialize the PR description with proper markdown
-          echo "### Commits Included:" > "$TEMP_FILE"
-          echo "" >> "$TEMP_FILE"
-          
-          # Process each commit
           echo "$COMMITS" | jq -r '.[] | "\(.sha)|\(.commit.message)"' | while IFS='|' read -r SHA MESSAGE; do
-            # Get first line of commit message as the title
-            FIRST_LINE=$(echo "$MESSAGE" | head -n 1 | xargs)
-            
-            # Format with SHA and first line as main bullet
-            echo "* **${SHA}**: ${FIRST_LINE}" >> "$TEMP_FILE"
-            
-            # Get rest of the message (if any) and format as sub-bullets
-            # Use a separate temp file for the remaining lines
-            MSG_TEMP=$(mktemp)
-            echo "$MESSAGE" | tail -n +2 | grep -v "^$" > "$MSG_TEMP"
-            
-            # Process each line of the remaining message
-            while read -r LINE; do
-              # Skip empty lines and trim whitespace
-              LINE=$(echo "$LINE" | xargs)
-              if [ -z "$LINE" ]; then
-                continue
-              fi
-              
-              # Add as sub-bullet with proper indentation
-              echo "  * $LINE" >> "$TEMP_FILE"
-            done < "$MSG_TEMP"
-            
-            # Clean up the message temp file
-            rm "$MSG_TEMP"
-            
-            # Add a blank line between commits for better readability
-            echo "" >> "$TEMP_FILE"
+            # Escape special characters in the message
+            ESCAPED_MESSAGE=$(echo "$MESSAGE" | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
+            echo "- **$SHA**: $ESCAPED_MESSAGE" >> "$TEMP_FILE"
           done
           
-          # Read the complete description
+          # Read the complete description from the temp file
           DESCRIPTION=$(cat "$TEMP_FILE")
           rm "$TEMP_FILE"
         fi
         
         # Update the PR body with the commit description
         # Properly escape the description for JSON
-        ESCAPED_DESCRIPTION=$(echo "$DESCRIPTION" | jq -sR .)
+        ESCAPED_DESCRIPTION=$(echo "$DESCRIPTION" | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
         
         echo "Updating PR description with:"
         echo "$DESCRIPTION"
         
         curl -X PATCH -H "Authorization: token $TOKEN" \
           -H "Content-Type: application/json" \
-          -d "{\"body\":$ESCAPED_DESCRIPTION}" \
+          -d "{\"body\":\"$ESCAPED_DESCRIPTION\"}" \
           "https://api.github.com/repos/$REPO_NAME/pulls/$PR_NUMBER"
