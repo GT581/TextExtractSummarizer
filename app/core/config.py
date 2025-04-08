@@ -26,13 +26,18 @@ class Settings(BaseSettings):
     API_PREFIX: str = "/api"
     CORS_ORIGINS: List[str] = ["*"]
     
-    # LLM - API Key loaded from .env
+    # LLM Config - API Key loaded from .env
     GOOGLE_API_KEY: str
-    MODEL_NAME: str = "gemini-1.5-flash"
+    GOOGLE_MODEL_NAME: str = "gemini-1.5-flash"
+
+    LLM_TEMPERATURE: float = 0.1
+    LLM_TOP_P: float = 0.95
+    LLM_MAX_TOKENS: int = 1024
     
     # App Defaults
-    DEFAULT_MAX_SUMMARY_LENGTH: int = 500
+    DEFAULT_MAX_SUMMARY_LENGTH: int = 1000
     UPLOAD_DIR: str = "uploads"
+    DEFAULT_LLM_PROVIDER: str = 'google'
 
     # Cls arg for pydantic validator
     @field_validator("UPLOAD_DIR", mode="before")
