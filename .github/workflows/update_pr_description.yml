@@ -5,8 +5,6 @@ on:
     types: [opened, edited, synchronize]
     branches:
       - main
-    paths:
-      - '**/*'
 
 jobs:
   update-description:
@@ -20,22 +18,27 @@ jobs:
       run: |
         PR_NUMBER=${{ github.event.pull_request.number }}
         REPO_NAME=${{ github.repository }}
-        TOKEN=${{ secrets.GITHUB_TOKEN }}  # GitHub token for authentication
-        
-        # Fetch all commits in the PR from 'develop' to 'main'
+        TOKEN=${{ secrets.GITHUB_TOKEN }}
+
+        # Fetch all commits in the PR
         COMMITS=$(curl -s -H "Authorization: token $TOKEN" \
           "https://api.github.com/repos/$REPO_NAME/pulls/$PR_NUMBER/commits")
 
+        # Initialize the PR description
         DESCRIPTION="### Commits Included:\n"
         
-        # Loop through each commit and build the PR description
-        for COMMIT in $(echo "$COMMITS" | jq -r '.[] | "\(.sha) \(.commit.message)"'); do
-          SHA=$(echo $COMMIT | cut -d ' ' -f1)
-          MESSAGE=$(echo $COMMIT | cut -d ' ' -f2-)
-          DESCRIPTION="$DESCRIPTION- **$SHA**: $MESSAGE\n"
+        # Use jq to properly parse each commit
+        echo "$COMMITS" | jq -r '.[] | "\(.sha)|\(.commit.message)"' | while IFS='|' read -r SHA MESSAGE; do
+          # Escape special characters in the message
+          ESCAPED_MESSAGE=$(echo "$MESSAGE" | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
+          DESCRIPTION="$DESCRIPTION- **$SHA**: $ESCAPED_MESSAGE\n"
         done
 
         # Update the PR body with the commit description
+        # Properly escape the description for JSON
+        ESCAPED_DESCRIPTION=$(echo "$DESCRIPTION" | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
+        
         curl -X PATCH -H "Authorization: token $TOKEN" \
-          -d "{\"body\":\"$DESCRIPTION\"}" \
+          -H "Content-Type: application/json" \
+          -d "{\"body\":\"$ESCAPED_DESCRIPTION\"}" \
           "https://api.github.com/repos/$REPO_NAME/pulls/$PR_NUMBER"
