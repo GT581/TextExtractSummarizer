@@ -1,0 +1,41 @@
+name: Update PR Description with Commits
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+    branches:
+      - main
+    paths:
+      - '**/*'
+
+jobs:
+  update-description:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Get PR commits and update description
+      run: |
+        PR_NUMBER=${{ github.event.pull_request.number }}
+        REPO_NAME=${{ github.repository }}
+        TOKEN=${{ secrets.GITHUB_TOKEN }}  # GitHub token for authentication
+        
+        # Fetch all commits in the PR from 'develop' to 'main'
+        COMMITS=$(curl -s -H "Authorization: token $TOKEN" \
+          "https://api.github.com/repos/$REPO_NAME/pulls/$PR_NUMBER/commits")
+
+        DESCRIPTION="### Commits Included:\n"
+        
+        # Loop through each commit and build the PR description
+        for COMMIT in $(echo "$COMMITS" | jq -r '.[] | "\(.sha) \(.commit.message)"'); do
+          SHA=$(echo $COMMIT | cut -d ' ' -f1)
+          MESSAGE=$(echo $COMMIT | cut -d ' ' -f2-)
+          DESCRIPTION="$DESCRIPTION- **$SHA**: $MESSAGE\n"
+        done
+
+        # Update the PR body with the commit description
+        curl -X PATCH -H "Authorization: token $TOKEN" \
+          -d "{\"body\":\"$DESCRIPTION\"}" \
+          "https://api.github.com/repos/$REPO_NAME/pulls/$PR_NUMBER"
