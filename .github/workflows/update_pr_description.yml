@@ -23,20 +23,38 @@ jobs:
         # Fetch all commits in the PR
         COMMITS=$(curl -s -H "Authorization: token $TOKEN" \
           "https://api.github.com/repos/$REPO_NAME/pulls/$PR_NUMBER/commits")
-
-        # Initialize the PR description
-        DESCRIPTION="### Commits Included:\n"
         
-        # Use jq to properly parse each commit
-        echo "$COMMITS" | jq -r '.[] | "\(.sha)|\(.commit.message)"' | while IFS='|' read -r SHA MESSAGE; do
-          # Escape special characters in the message
-          ESCAPED_MESSAGE=$(echo "$MESSAGE" | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
-          DESCRIPTION="$DESCRIPTION- **$SHA**: $ESCAPED_MESSAGE\n"
-        done
-
+        # Check if we got any commits
+        COMMIT_COUNT=$(echo "$COMMITS" | jq '. | length')
+        if [ "$COMMIT_COUNT" -eq 0 ]; then
+          echo "No commits found in this PR"
+          DESCRIPTION="### No commits found in this PR"
+        else
+          # Initialize the PR description
+          DESCRIPTION="### Commits Included:\n"
+          
+          # Process each commit and build the description
+          # Use a temporary file to store the description
+          TEMP_FILE=$(mktemp)
+          echo "$DESCRIPTION" > "$TEMP_FILE"
+          
+          echo "$COMMITS" | jq -r '.[] | "\(.sha)|\(.commit.message)"' | while IFS='|' read -r SHA MESSAGE; do
+            # Escape special characters in the message
+            ESCAPED_MESSAGE=$(echo "$MESSAGE" | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
+            echo "- **$SHA**: $ESCAPED_MESSAGE" >> "$TEMP_FILE"
+          done
+          
+          # Read the complete description from the temp file
+          DESCRIPTION=$(cat "$TEMP_FILE")
+          rm "$TEMP_FILE"
+        fi
+        
         # Update the PR body with the commit description
         # Properly escape the description for JSON
         ESCAPED_DESCRIPTION=$(echo "$DESCRIPTION" | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
+        
+        echo "Updating PR description with:"
+        echo "$DESCRIPTION"
         
         curl -X PATCH -H "Authorization: token $TOKEN" \
           -H "Content-Type: application/json" \
