@@ -38,10 +38,27 @@ jobs:
           TEMP_FILE=$(mktemp)
           echo "$DESCRIPTION" > "$TEMP_FILE"
           
+          # Process each commit
           echo "$COMMITS" | jq -r '.[] | "\(.sha)|\(.commit.message)"' | while IFS='|' read -r SHA MESSAGE; do
-            # Escape special characters in the message
-            ESCAPED_MESSAGE=$(echo "$MESSAGE" | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
-            echo "- **$SHA**: $ESCAPED_MESSAGE" >> "$TEMP_FILE"
+            # Format with SHA as main bullet
+            echo "- **$SHA**" >> "$TEMP_FILE"
+            
+            # Process the message line by line
+            echo "$MESSAGE" | while read -r LINE; do
+              # Skip empty lines
+              if [ -z "$LINE" ]; then
+                continue
+              fi
+              
+              # Check if the line starts with a bullet point
+              if [[ "$LINE" =~ ^[*-] ]]; then
+                # It's already a bullet point, just indent it
+                echo "  $LINE" >> "$TEMP_FILE"
+              else
+                # It's not a bullet point, make it one
+                echo "  - $LINE" >> "$TEMP_FILE"
+              fi
+            done
           done
           
           # Read the complete description from the temp file
