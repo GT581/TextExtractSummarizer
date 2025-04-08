@@ -2,20 +2,23 @@
 
 API for summarizing content from multiple sources and extracting specific information from text.
 
-## Planned Features
+## Features
 
 - **Content Summarization**:
   - Generate summaries of PDF documents
   - Summarize text input directly
   - Summarize web content of provided URL
-- **Information Extraction**:
-  - Key points from text
-  - Named entities (people, organizations, locations, etc.)
-  - Custom extraction based on user instructions
 - **Multiple Content Sources**:
   - PDF uploads
   - Web content by URL
   - Raw text input
+
+## Planned Features
+
+- **Information Extraction**:
+  - Key points from text
+  - Named entities (people, organizations, locations, etc.)
+  - Custom extraction based on user instructions
 
 ## Setup
 

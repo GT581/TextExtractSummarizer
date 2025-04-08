@@ -27,7 +27,7 @@ text_extract_summarizer/
 │   │   ├── web_scraper.py      # Web scraping functionality
 │   │   ├── text_processor.py   # Text processing functionality
 │   │   ├── summarization.py    # Content summarization
-│   │   └── text_extraction.py  # Text extraction logic
+│   │   └── extraction.py       # Content extraction
 │   ├── utils/
 │   │   ├── __init__.py
 │   │   ├── text_utils.py       # Text processing utilities
@@ -35,6 +35,7 @@ text_extract_summarizer/
 │   ├── __init__.py
 │   └── main.py                 # FastAPI application setup
 ├── uploads/                    # Temporary upload directory
+├── examples/                   # API examples
 ├── .env                        # Environment variables
 ├── requirements.txt            # Project dependencies
 ├── setup.py                    # Setup script
