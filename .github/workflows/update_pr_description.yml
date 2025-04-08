@@ -30,9 +30,12 @@ jobs:
           echo "No commits found in this PR"
           DESCRIPTION="### No commits found in this PR"
         else
+          # Create a temporary file for the description
+          TEMP_FILE=$(mktemp)
+          
           # Initialize the PR description with proper markdown
-          echo "### Commits Included:" > description.md
-          echo "" >> description.md
+          echo "### Commits Included:" > "$TEMP_FILE"
+          echo "" >> "$TEMP_FILE"
           
           # Process each commit
           echo "$COMMITS" | jq -r '.[] | "\(.sha)|\(.commit.message)"' | while IFS='|' read -r SHA MESSAGE; do
@@ -40,30 +43,35 @@ jobs:
             FIRST_LINE=$(echo "$MESSAGE" | head -n 1 | xargs)
             
             # Format with SHA and first line as main bullet
-            echo "* **${SHA}**: ${FIRST_LINE}" >> description.md
+            echo "* **${SHA}**: ${FIRST_LINE}" >> "$TEMP_FILE"
             
             # Get rest of the message (if any) and format as sub-bullets
-            REMAINING=$(echo "$MESSAGE" | tail -n +2 | grep -v "^$")
-            if [ ! -z "$REMAINING" ]; then
-              echo "$REMAINING" | while read -r LINE; do
-                # Skip empty lines and trim whitespace
-                LINE=$(echo "$LINE" | xargs)
-                if [ -z "$LINE" ]; then
-                  continue
-                fi
-                
-                # Add as sub-bullet with proper indentation
-                echo "  * $LINE" >> description.md
-              done
-            fi
+            # Use a separate temp file for the remaining lines
+            MSG_TEMP=$(mktemp)
+            echo "$MESSAGE" | tail -n +2 | grep -v "^$" > "$MSG_TEMP"
+            
+            # Process each line of the remaining message
+            while read -r LINE; do
+              # Skip empty lines and trim whitespace
+              LINE=$(echo "$LINE" | xargs)
+              if [ -z "$LINE" ]; then
+                continue
+              fi
+              
+              # Add as sub-bullet with proper indentation
+              echo "  * $LINE" >> "$TEMP_FILE"
+            done < "$MSG_TEMP"
+            
+            # Clean up the message temp file
+            rm "$MSG_TEMP"
             
             # Add a blank line between commits for better readability
-            echo "" >> description.md
+            echo "" >> "$TEMP_FILE"
           done
           
           # Read the complete description
-          DESCRIPTION=$(cat description.md)
-          rm description.md
+          DESCRIPTION=$(cat "$TEMP_FILE")
+          rm "$TEMP_FILE"
         fi
         
         # Update the PR body with the commit description
