@@ -16,10 +16,9 @@ text_extract_summarizer/
 │   │   └── logging.py          # Logging configuration
 │   ├── models/
 │   │   ├── __init__.py
-│   │   ├── text.py             # Base data models for text and input types
 │   │   ├── summarization.py    # Data models for summarization feature
 │   │   ├── pdf_document.py     # Data models for pdf documents
-│   │   └── text_extraction.py  # Data models for extraction feature
+│   │   └── text_extraction.py  # Data models for text input and extraction feature
 │   ├── services/
 │   │   ├── __init__.py
 │   │   ├── llm_provider.py     # LLM integration
