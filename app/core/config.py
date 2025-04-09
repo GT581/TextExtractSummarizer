@@ -35,7 +35,7 @@ class Settings(BaseSettings):
     LLM_MAX_TOKENS: int = 1024
     
     # App Defaults
-    DEFAULT_MAX_SUMMARY_LENGTH: int = 1000
+    DEFAULT_MAX_SUMMARY_LENGTH: int = 2000
     UPLOAD_DIR: str = "uploads"
     DEFAULT_LLM_PROVIDER: str = 'google'
 
