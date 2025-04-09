@@ -8,6 +8,7 @@ API for summarizing content from multiple sources and extracting specific inform
   - Generate summaries of PDF documents
   - Summarize text input directly
   - Summarize web content of provided URL
+
 - **Multiple Content Sources**:
   - PDF uploads
   - Web content by URL
