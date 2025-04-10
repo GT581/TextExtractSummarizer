@@ -67,6 +67,7 @@ class SummarizationService:
         3. Maintains a logical flow
         4. Uses objective language
         5. Is concise but comprehensive
+        6. DO NOT include any formatting characters like backslashes or newlines in your final summary
         """
         
         # Combine all parts for final prompt
