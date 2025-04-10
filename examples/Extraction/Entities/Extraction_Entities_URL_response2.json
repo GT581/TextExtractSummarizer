@@ -1,0 +1,254 @@
+{
+    "success": true,
+    "extraction_type": "entities",
+    "source_type": "url",
+    "data": {},
+    "key_value_pairs": [],
+    "entities": [
+      {
+        "name": "Tesla",
+        "type": "Organization",
+        "mentions": [
+          "Tesla"
+        ]
+      },
+      {
+        "name": "Donald Trump",
+        "type": "Person",
+        "mentions": [
+          "President Donald Trump",
+          "Trump",
+          "President Donald Trump's",
+          "Trump's",
+          "President Trump"
+        ]
+      },
+      {
+        "name": "Amazon",
+        "type": "Organization",
+        "mentions": [
+          "Amazon",
+          "AMZN"
+        ]
+      },
+      {
+        "name": "Uber",
+        "type": "Organization",
+        "mentions": [
+          "Uber",
+          "UBER"
+        ]
+      },
+      {
+        "name": "Rocket Companies",
+        "type": "Organization",
+        "mentions": [
+          "Rocket Companies",
+          "RKT"
+        ]
+      },
+      {
+        "name": "Josh Brown",
+        "type": "Person",
+        "mentions": [
+          "Josh Brown"
+        ]
+      },
+      {
+        "name": "Ritholtz Wealth Management",
+        "type": "Organization",
+        "mentions": [
+          "Ritholtz Wealth Management"
+        ]
+      },
+      {
+        "name": "CNBC",
+        "type": "Organization",
+        "mentions": [
+          "CNBC"
+        ]
+      },
+      {
+        "name": "Alliant Energy Corp",
+        "type": "Organization",
+        "mentions": [
+          "Alliant Energy Corp"
+        ]
+      },
+      {
+        "name": "Interstate Power and Light",
+        "type": "Organization",
+        "mentions": [
+          "Interstate Power and Light",
+          "IPL"
+        ]
+      },
+      {
+        "name": "Wisconsin Power",
+        "type": "Organization",
+        "mentions": [
+          "Wisconsin Power",
+          "WPL"
+        ]
+      },
+      {
+        "name": "Alliant Energy Finance",
+        "type": "Organization",
+        "mentions": [
+          "Alliant Energy Finance"
+        ]
+      },
+      {
+        "name": "Argus Research",
+        "type": "Organization",
+        "mentions": [
+          "Argus Research"
+        ]
+      },
+      {
+        "name": "TSMC",
+        "type": "Organization",
+        "mentions": [
+          "TSMC",
+          "Taiwan Semiconductor Manufacturing"
+        ]
+      },
+      {
+        "name": "Huawei",
+        "type": "Organization",
+        "mentions": [
+          "Huawei"
+        ]
+      },
+      {
+        "name": "U.S. Department of Commerce",
+        "type": "Organization",
+        "mentions": [
+          "U.S. Department of Commerce"
+        ]
+      },
+      {
+        "name": "Sophgo",
+        "type": "Organization",
+        "mentions": [
+          "Sophgo"
+        ]
+      },
+      {
+        "name": "AppLovin",
+        "type": "Organization",
+        "mentions": [
+          "AppLovin",
+          "APP"
+        ]
+      },
+      {
+        "name": "Nasdaq Composite",
+        "type": "Organization",
+        "mentions": [
+          "Nasdaq Composite",
+          "^IXIC"
+        ]
+      },
+      {
+        "name": "Codelco",
+        "type": "Organization",
+        "mentions": [
+          "Codelco"
+        ]
+      },
+      {
+        "name": "Ruben Alvarado",
+        "type": "Person",
+        "mentions": [
+          "Ruben Alvarado"
+        ]
+      },
+      {
+        "name": "Chile",
+        "type": "Location",
+        "mentions": [
+          "Chile"
+        ]
+      },
+      {
+        "name": "Applied Materials",
+        "type": "Organization",
+        "mentions": [
+          "Applied Materials",
+          "AMAT"
+        ]
+      },
+      {
+        "name": "Gary E. Dickerson",
+        "type": "Person",
+        "mentions": [
+          "Gary E. Dickerson"
+        ]
+      },
+      {
+        "name": "Yahoo Finance",
+        "type": "Organization",
+        "mentions": [
+          "Yahoo Finance"
+        ]
+      },
+      {
+        "name": "Barrons.com",
+        "type": "Organization",
+        "mentions": [
+          "Barrons.com"
+        ]
+      },
+      {
+        "name": "GOBankingRates",
+        "type": "Organization",
+        "mentions": [
+          "GOBankingRates"
+        ]
+      },
+      {
+        "name": "Reuters",
+        "type": "Organization",
+        "mentions": [
+          "Reuters"
+        ]
+      },
+      {
+        "name": "Yahoo Personal Finance",
+        "type": "Organization",
+        "mentions": [
+          "Yahoo Personal Finance"
+        ]
+      },
+      {
+        "name": "Insider Monkey",
+        "type": "Organization",
+        "mentions": [
+          "Insider Monkey"
+        ]
+      },
+      {
+        "name": "Motley Fool",
+        "type": "Organization",
+        "mentions": [
+          "Motley Fool"
+        ]
+      },
+      {
+        "name": "Wall Street",
+        "type": "Location",
+        "mentions": [
+          "Wall Street"
+        ]
+      },
+      {
+        "name": "U.S.",
+        "type": "Location",
+        "mentions": [
+          "U.S."
+        ]
+      }
+    ],
+    "context": "Scraped from URL: https://finance.yahoo.com/news, Title: Finance News: Wall Street, financial markets, stocks, securities and more from Yahoo Finance"
+  }
