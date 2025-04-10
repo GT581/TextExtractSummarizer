@@ -1,0 +1,125 @@
+{
+    "success": true,
+    "extraction_type": "key_points",
+    "source_type": "url",
+    "data": {},
+    "key_value_pairs": [
+      {
+        "key": "Kura Sushi Growth Plans",
+        "value": "Targeting a 20% unit expansion in fiscal 2025.",
+        "confidence": null
+      },
+      {
+        "key": "Peabody Energy Surge",
+        "value": "Stock price surged due to Trump's executive orders boosting the coal industry.",
+        "confidence": null
+      },
+      {
+        "key": "Oil Price Decline",
+        "value": "Further fall in oil prices due to US-China tariff escalation and demand concerns; Goldman Sachs warns oil could fall below $40 in an extreme scenario.",
+        "confidence": null
+      },
+      {
+        "key": "Chilean Lithium Reserves",
+        "value": "28% more lithium than previously estimated.",
+        "confidence": null
+      },
+      {
+        "key": "Gold Price Rebound",
+        "value": "Rebounded after three consecutive drops; analyst sees potential for $4000 price.",
+        "confidence": null
+      },
+      {
+        "key": "AVMed Stock Sale",
+        "value": "Filing to sell 3.3 million shares of common stock for holders.",
+        "confidence": null
+      },
+      {
+        "key": "S&P 500 Bear Market",
+        "value": "On the verge of entering a bear market after Tuesday's rally reversal.",
+        "confidence": null
+      },
+      {
+        "key": "Blink Charging Nasdaq Notification",
+        "value": "Received a notification regarding late filing of Form 10-K.",
+        "confidence": null
+      },
+      {
+        "key": "Nortech Patent",
+        "value": "Announced a new patent for non-magnetic expanded beam fiber optic cable technology.",
+        "confidence": null
+      },
+      {
+        "key": "US Crude Stockpiles",
+        "value": "Fell by 1 million barrels last week, according to the API.",
+        "confidence": null
+      },
+      {
+        "key": "Victoria's Secret Leadership Appointments",
+        "value": "Announced leadership appointments.",
+        "confidence": null
+      },
+      {
+        "key": "CreditRiskMonitor COO Appointment",
+        "value": "Appointed Shyarsh Desai as chief operating officer.",
+        "confidence": null
+      },
+      {
+        "key": "Cal-Maine Foods Q3 Profits",
+        "value": "Profits doubled due to soaring egg prices; missed FQ3 estimates but signed a deal to buy Echo Lake Foods.",
+        "confidence": null
+      },
+      {
+        "key": "COPT Defense Properties Filing",
+        "value": "Filed an automatic mixed securities shelf.",
+        "confidence": null
+      },
+      {
+        "key": "Wall Street Volatility",
+        "value": "Volatility gauge ended above 50 for the first time since the COVID market crash.",
+        "confidence": null
+      },
+      {
+        "key": "HireQuest Leadership Changes",
+        "value": "Named David Hartley CFO, Steve Crane to retire.",
+        "confidence": null
+      },
+      {
+        "key": "Crescent Energy Stock Structure",
+        "value": "Transitioned to a single class of common stock, eliminating the Up-C structure.",
+        "confidence": null
+      },
+      {
+        "key": "Intel Stock Price",
+        "value": "Plunged to a 16-year low, along with several other semiconductor stocks hitting multi-year lows.",
+        "confidence": null
+      },
+      {
+        "key": "Paychex Senior Notes",
+        "value": "Priced $4.2 billion in senior notes.",
+        "confidence": null
+      },
+      {
+        "key": "Nurix Therapeutics Earnings",
+        "value": "GAAP EPS of -$0.67 (beat by $0.11), revenue of $18.45M (beat by $5.42M).",
+        "confidence": null
+      },
+      {
+        "key": "Lotus Technology CFO Appointment",
+        "value": "Appointed Daxue Wang as CFO.",
+        "confidence": null
+      },
+      {
+        "key": "Apple Stock Decline",
+        "value": "Tumbled due to Leavitt's statement that Trump believes iPhones can be built in the US.",
+        "confidence": null
+      },
+      {
+        "key": "Duke Energy Nuclear Plant License",
+        "value": "Applied to extend the Robinson nuclear plant license through 2050.",
+        "confidence": null
+      }
+    ],
+    "entities": [],
+    "context": "Scraped from URL: https://seekingalpha.com/market-news, Title: Breaking Stock Market News | Seeking Alpha"
+  }
