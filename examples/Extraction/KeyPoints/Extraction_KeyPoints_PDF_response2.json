@@ -1,0 +1,205 @@
+{
+    "success": true,
+    "extraction_type": "key_points",
+    "source_type": "pdf",
+    "data": {},
+    "key_value_pairs": [
+      {
+        "key": "Book Title",
+        "value": "Code: The Hidden Language of Computer Hardware and Software",
+        "confidence": null
+      },
+      {
+        "key": "Author",
+        "value": "Charles Petzold",
+        "confidence": null
+      },
+      {
+        "key": "Copyright Year",
+        "value": "2009",
+        "confidence": null
+      },
+      {
+        "key": "Publisher",
+        "value": "Microsoft Press",
+        "confidence": null
+      },
+      {
+        "key": "Images Courtesy",
+        "value": "Corbis Images",
+        "confidence": null
+      },
+      {
+        "key": "Illustrations by",
+        "value": "Joel Panchot",
+        "confidence": null
+      },
+      {
+        "key": "Book Description",
+        "value": "Explains how computers work without using metaphors or similes.",
+        "confidence": null
+      },
+      {
+        "key": "Target Audience",
+        "value": "Readers seeking a deep understanding of computer workings, potentially rivaling that of electrical engineers and programmers.",
+        "confidence": null
+      },
+      {
+        "key": "Book Structure",
+        "value": "Hierarchical, moving from transistors to information displayed on screens.",
+        "confidence": null
+      },
+      {
+        "key": "Historical Context",
+        "value": "Traces computer development back to 19th-century technology.",
+        "confidence": null
+      },
+      {
+        "key": "Unique Approach",
+        "value": "Uses antique technology (telegraph equipment) to illustrate computer construction.",
+        "confidence": null
+      },
+      {
+        "key": "Writing Style",
+        "value": "Relaxed pace despite technical depth.",
+        "confidence": null
+      },
+      {
+        "key": "Morse Code",
+        "value": "A binary code using dots and dashes (or short and long blinks) to represent letters, numbers, and punctuation.",
+        "confidence": null
+      },
+      {
+        "key": "Braille",
+        "value": "A 6-bit binary code using raised dots in a 2x3 cell to represent characters.",
+        "confidence": null
+      },
+      {
+        "key": "Binary Number Systems",
+        "value": "Explores decimal, octal, quaternary, and binary number systems.",
+        "confidence": null
+      },
+      {
+        "key": "Boolean Algebra",
+        "value": "Explains Boolean algebra and its relationship to electrical circuits.",
+        "confidence": null
+      },
+      {
+        "key": "Logic Gates",
+        "value": "Describes AND, OR, NAND, NOR, XOR gates and their implementation using relays or transistors.",
+        "confidence": null
+      },
+      {
+        "key": "Binary Adder",
+        "value": "Details the construction of an 8-bit binary adder using logic gates.",
+        "confidence": null
+      },
+      {
+        "key": "Subtraction",
+        "value": "Explains subtraction using nines' complement (decimal) and ones' complement (binary).",
+        "confidence": null
+      },
+      {
+        "key": "Two's Complement",
+        "value": "Describes two's complement representation of negative numbers.",
+        "confidence": null
+      },
+      {
+        "key": "Flip-Flops",
+        "value": "Explores R-S and D-type flip-flops, including level-triggered and edge-triggered versions.",
+        "confidence": null
+      },
+      {
+        "key": "Memory",
+        "value": "Details the construction of RAM arrays using flip-flops and selectors.",
+        "confidence": null
+      },
+      {
+        "key": "Kilobyte, Megabyte, Gigabyte, Terabyte",
+        "value": "Defines these units of memory and their relationship to powers of 2.",
+        "confidence": null
+      },
+      {
+        "key": "Automation",
+        "value": "Describes the automation of addition and subtraction using RAM and a counter.",
+        "confidence": null
+      },
+      {
+        "key": "Computer Architecture",
+        "value": "Presents a computer design with a processor, memory, input/output devices, and control signals.",
+        "confidence": null
+      },
+      {
+        "key": "Assembly Language",
+        "value": "Introduces assembly language programming and its relationship to machine code.",
+        "confidence": null
+      },
+      {
+        "key": "High-Level Programming Languages",
+        "value": "Compares assembly language to high-level languages such as ALGOL, FORTRAN, COBOL, Pascal, C, and others.",
+        "confidence": null
+      },
+      {
+        "key": "ASCII",
+        "value": "Explains the American Standard Code for Information Interchange (ASCII) and its limitations.",
+        "confidence": null
+      },
+      {
+        "key": "EBCDIC",
+        "value": "Describes the Extended Binary Coded Decimal Interchange Code (EBCDIC).",
+        "confidence": null
+      },
+      {
+        "key": "Unicode",
+        "value": "Introduces Unicode as a universal character encoding system.",
+        "confidence": null
+      },
+      {
+        "key": "Computer Bus",
+        "value": "Explains the role of a computer bus in connecting components.",
+        "confidence": null
+      },
+      {
+        "key": "Keyboard Interface",
+        "value": "Details the design of a keyboard interface using a counter, decoder, and selector.",
+        "confidence": null
+      },
+      {
+        "key": "Disk Storage",
+        "value": "Describes floppy disks and hard disks and their interfaces.",
+        "confidence": null
+      },
+      {
+        "key": "Operating System",
+        "value": "Explores the functions of an operating system, using CP/M and MS-DOS as examples.",
+        "confidence": null
+      },
+      {
+        "key": "Graphical User Interface (GUI)",
+        "value": "Discusses the development of GUIs, including the Xerox Alto and the Apple Macintosh.",
+        "confidence": null
+      },
+      {
+        "key": "Fixed-Point and Floating-Point Numbers",
+        "value": "Compares fixed-point and floating-point number representation in computers.",
+        "confidence": null
+      },
+      {
+        "key": "IEEE Floating-Point Standard",
+        "value": "Explains the IEEE standard for single-precision and double-precision floating-point numbers.",
+        "confidence": null
+      },
+      {
+        "key": "Multimedia",
+        "value": "Covers digital sound, music, and movies, including compression techniques.",
+        "confidence": null
+      },
+      {
+        "key": "Internet and World Wide Web",
+        "value": "Briefly describes the Internet, World Wide Web, and related technologies.",
+        "confidence": null
+      }
+    ],
+    "entities": [],
+    "context": "PDF Document: code-charles-petzold.pdf, Pages: 363, Title: Code: The Hidden Language of Computer Hardware and Software"
+  }
