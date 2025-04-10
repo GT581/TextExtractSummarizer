@@ -1,0 +1,707 @@
+{
+    "success": true,
+    "extraction_type": "entities",
+    "source_type": "url",
+    "data": {},
+    "key_value_pairs": [],
+    "entities": [
+      {
+        "name": "Microsoft",
+        "type": "Organization",
+        "mentions": [
+          "Microsoft",
+          "MSFT",
+          "the company",
+          "Microsoft Investor Relations",
+          "Microsoft Investor Relations website"
+        ]
+      },
+      {
+        "name": "Satya Nadella",
+        "type": "Person",
+        "mentions": [
+          "Satya Nadella",
+          "Satya Nadella, Chairman & CEO",
+          "Satya Nadella, chairman and chief executive officer",
+          "Satya"
+        ]
+      },
+      {
+        "name": "Amy Hood",
+        "type": "Person",
+        "mentions": [
+          "Amy Hood",
+          "Amy Hood, EVP & CFO",
+          "Amy Hood, chief financial officer",
+          "Amy"
+        ]
+      },
+      {
+        "name": "Alice Jolla",
+        "type": "Person",
+        "mentions": [
+          "Alice Jolla"
+        ]
+      },
+      {
+        "name": "Keith Dolliver",
+        "type": "Person",
+        "mentions": [
+          "Keith Dolliver"
+        ]
+      },
+      {
+        "name": "Brett Iversen",
+        "type": "Person",
+        "mentions": [
+          "Brett Iversen",
+          "BRETT IVERSEN",
+          "Brett",
+          "Brett Iversen"
+        ]
+      },
+      {
+        "name": "Jonathan Neilson",
+        "type": "Person",
+        "mentions": [
+          "Jonathan Neilson"
+        ]
+      },
+      {
+        "name": "UBS",
+        "type": "Organization",
+        "mentions": [
+          "UBS"
+        ]
+      },
+      {
+        "name": "Oracle",
+        "type": "Organization",
+        "mentions": [
+          "Oracle"
+        ]
+      },
+      {
+        "name": "SAP",
+        "type": "Organization",
+        "mentions": [
+          "SAP",
+          "SAP"
+        ]
+      },
+      {
+        "name": "VMWare",
+        "type": "Organization",
+        "mentions": [
+          "VMWare"
+        ]
+      },
+      {
+        "name": "Hitachi",
+        "type": "Organization",
+        "mentions": [
+          "Hitachi"
+        ]
+      },
+      {
+        "name": "Johnson Controls",
+        "type": "Organization",
+        "mentions": [
+          "Johnson Controls"
+        ]
+      },
+      {
+        "name": "Schaeffler",
+        "type": "Organization",
+        "mentions": [
+          "Schaeffler"
+        ]
+      },
+      {
+        "name": "OpenAI",
+        "type": "Organization",
+        "mentions": [
+          "OpenAI",
+          "OpenAI",
+          "OpenAI’s",
+          "OpenAI’s APIs",
+          "OpenAI",
+          "OpenAI’s leading models",
+          "OpenAI"
+        ]
+      },
+      {
+        "name": "Bayer",
+        "type": "Organization",
+        "mentions": [
+          "Bayer"
+        ]
+      },
+      {
+        "name": "Paige.AI",
+        "type": "Organization",
+        "mentions": [
+          "Paige.AI"
+        ]
+      },
+      {
+        "name": "Rockwell Automation",
+        "type": "Organization",
+        "mentions": [
+          "Rockwell Automation"
+        ]
+      },
+      {
+        "name": "Siemens",
+        "type": "Organization",
+        "mentions": [
+          "Siemens"
+        ]
+      },
+      {
+        "name": "ASOS",
+        "type": "Organization",
+        "mentions": [
+          "ASOS"
+        ]
+      },
+      {
+        "name": "Spotify",
+        "type": "Organization",
+        "mentions": [
+          "Spotify"
+        ]
+      },
+      {
+        "name": "HP",
+        "type": "Organization",
+        "mentions": [
+          "HP"
+        ]
+      },
+      {
+        "name": "HSBC",
+        "type": "Organization",
+        "mentions": [
+          "HSBC"
+        ]
+      },
+      {
+        "name": "KPMG",
+        "type": "Organization",
+        "mentions": [
+          "KPMG"
+        ]
+      },
+      {
+        "name": "Novartis",
+        "type": "Organization",
+        "mentions": [
+          "Novartis"
+        ]
+      },
+      {
+        "name": "Barclays",
+        "type": "Organization",
+        "mentions": [
+          "Barclays"
+        ]
+      },
+      {
+        "name": "Carrier Group",
+        "type": "Organization",
+        "mentions": [
+          "Carrier Group"
+        ]
+      },
+      {
+        "name": "Pearson",
+        "type": "Organization",
+        "mentions": [
+          "Pearson"
+        ]
+      },
+      {
+        "name": "University of Miami",
+        "type": "Organization",
+        "mentions": [
+          "University of Miami"
+        ]
+      },
+      {
+        "name": "Adobe",
+        "type": "Organization",
+        "mentions": [
+          "Adobe",
+          "Adobe"
+        ]
+      },
+      {
+        "name": "SAP",
+        "type": "Organization",
+        "mentions": [
+          "SAP"
+        ]
+      },
+      {
+        "name": "ServiceNow",
+        "type": "Organization",
+        "mentions": [
+          "ServiceNow"
+        ]
+      },
+      {
+        "name": "Workday",
+        "type": "Organization",
+        "mentions": [
+          "Workday"
+        ]
+      },
+      {
+        "name": "Ecolab",
+        "type": "Organization",
+        "mentions": [
+          "Ecolab"
+        ]
+      },
+      {
+        "name": "Lenovo",
+        "type": "Organization",
+        "mentions": [
+          "Lenovo"
+        ]
+      },
+      {
+        "name": "RTX",
+        "type": "Organization",
+        "mentions": [
+          "RTX"
+        ]
+      },
+      {
+        "name": "Total Energies",
+        "type": "Organization",
+        "mentions": [
+          "Total Energies"
+        ]
+      },
+      {
+        "name": "Vizient",
+        "type": "Organization",
+        "mentions": [
+          "Vizient"
+        ]
+      },
+      {
+        "name": "Mass General Brigham",
+        "type": "Organization",
+        "mentions": [
+          "Mass General Brigham"
+        ]
+      },
+      {
+        "name": "Michigan Medicine",
+        "type": "Organization",
+        "mentions": [
+          "Michigan Medicine"
+        ]
+      },
+      {
+        "name": "Vanderbilt University Medical Center",
+        "type": "Organization",
+        "mentions": [
+          "Vanderbilt University Medical Center"
+        ]
+      },
+      {
+        "name": "CapCut",
+        "type": "Organization",
+        "mentions": [
+          "CapCut"
+        ]
+      },
+      {
+        "name": "WhatsApp",
+        "type": "Organization",
+        "mentions": [
+          "WhatsApp"
+        ]
+      },
+      {
+        "name": "City of Johannesburg",
+        "type": "Organization",
+        "mentions": [
+          "City of Johannesburg"
+        ]
+      },
+      {
+        "name": "Eastman",
+        "type": "Organization",
+        "mentions": [
+          "Eastman"
+        ]
+      },
+      {
+        "name": "Intesa Sanpaolo",
+        "type": "Organization",
+        "mentions": [
+          "Intesa Sanpaolo"
+        ]
+      },
+      {
+        "name": "National Australia Bank",
+        "type": "Organization",
+        "mentions": [
+          "National Australia Bank"
+        ]
+      },
+      {
+        "name": "NTT",
+        "type": "Organization",
+        "mentions": [
+          "NTT"
+        ]
+      },
+      {
+        "name": "LinkedIn",
+        "type": "Organization",
+        "mentions": [
+          "LinkedIn",
+          "LinkedIn",
+          "LinkedIn Premium",
+          "LinkedIn Marketing Solutions"
+        ]
+      },
+      {
+        "name": "Bing",
+        "type": "Product",
+        "mentions": [
+          "Bing",
+          "Bing",
+          "Bing"
+        ]
+      },
+      {
+        "name": "Edge",
+        "type": "Product",
+        "mentions": [
+          "Edge",
+          "Edge"
+        ]
+      },
+      {
+        "name": "Copilot",
+        "type": "Product",
+        "mentions": [
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot",
+          "Copilot Chat",
+          "Copilot Chat",
+          "Copilot Studio",
+          "Copilot Studio",
+          "Copilot+ PCs",
+          "Copilot+ PCs",
+          "Copilot+ PCs",
+          "Copilot consumer app",
+          "Copilot Vision",
+          "Microsoft 365 Copilot",
+          "Microsoft 365 Copilot",
+          "M365 Copilot",
+          "M365 Copilot",
+          "M365 Copilot",
+          "GitHub Copilot",
+          "GitHub Copilot",
+          "Security Copilot"
+        ]
+      },
+      {
+        "name": "Azure",
+        "type": "Product",
+        "mentions": [
+          "Azure",
+          "Azure",
+          "Azure",
+          "Azure",
+          "Azure",
+          "Azure",
+          "Azure",
+          "Azure",
+          "Azure",
+          "Azure",
+          "Azure",
+          "Azure",
+          "Azure AI",
+          "Azure AI services",
+          "Azure and other cloud services",
+          "Azure",
+          "Azure"
+        ]
+      },
+      {
+        "name": "Power BI",
+        "type": "Product",
+        "mentions": [
+          "Power BI"
+        ]
+      },
+      {
+        "name": "Microsoft Fabric",
+        "type": "Product",
+        "mentions": [
+          "Microsoft Fabric"
+        ]
+      },
+      {
+        "name": "Azure OpenAI",
+        "type": "Product",
+        "mentions": [
+          "Azure OpenAI"
+        ]
+      },
+      {
+        "name": "SQL Hyperscale",
+        "type": "Product",
+        "mentions": [
+          "SQL Hyperscale"
+        ]
+      },
+      {
+        "name": "Cosmos DB",
+        "type": "Product",
+        "mentions": [
+          "Cosmos DB"
+        ]
+      },
+      {
+        "name": "Azure AI Foundry",
+        "type": "Product",
+        "mentions": [
+          "Azure AI Foundry"
+        ]
+      },
+      {
+        "name": "DeepSeek’s R1",
+        "type": "Product",
+        "mentions": [
+          "DeepSeek’s R1",
+          "DeepSeek’s R1"
+        ]
+      },
+      {
+        "name": "Phi",
+        "type": "Product",
+        "mentions": [
+          "Phi"
+        ]
+      },
+      {
+        "name": "Microsoft 365",
+        "type": "Product",
+        "mentions": [
+          "Microsoft 365",
+          "Microsoft 365",
+          "Microsoft 365",
+          "M365",
+          "M365 commercial",
+          "M365 commercial cloud",
+          "M365",
+          "M365 Copilot",
+          "M365",
+          "M365 consumer cloud",
+          "M365 consumer",
+          "M365 Basic",
+          "Office 2024",
+          "M365 suites"
+        ]
+      },
+      {
+        "name": "Dynamics 365",
+        "type": "Product",
+        "mentions": [
+          "Dynamics 365",
+          "Dynamics 365"
+        ]
+      },
+      {
+        "name": "DAX Copilot",
+        "type": "Product",
+        "mentions": [
+          "DAX Copilot"
+        ]
+      },
+      {
+        "name": "Windows 10",
+        "type": "Product",
+        "mentions": [
+          "Windows 10"
+        ]
+      },
+      {
+        "name": "Windows 11",
+        "type": "Product",
+        "mentions": [
+          "Windows 11"
+        ]
+      },
+      {
+        "name": "Windows Server 2025",
+        "type": "Product",
+        "mentions": [
+          "Windows Server 2025"
+        ]
+      },
+      {
+        "name": "Windows Commercial",
+        "type": "Product",
+        "mentions": [
+          "Windows Commercial"
+        ]
+      },
+      {
+        "name": "Xbox",
+        "type": "Product",
+        "mentions": [
+          "Xbox",
+          "Xbox",
+          "Xbox",
+          "Xbox Cloud Gaming",
+          "Xbox Game Pass",
+          "Xbox"
+        ]
+      },
+      {
+        "name": "PlayStation",
+        "type": "Product",
+        "mentions": [
+          "PlayStation"
+        ]
+      },
+      {
+        "name": "Black Ops 6",
+        "type": "Product",
+        "mentions": [
+          "Black Ops 6"
+        ]
+      },
+      {
+        "name": "Indiana Jones and the Great Circle",
+        "type": "Product",
+        "mentions": [
+          "Indiana Jones and the Great Circle"
+        ]
+      },
+      {
+        "name": "Game Pass",
+        "type": "Product",
+        "mentions": [
+          "Game Pass"
+        ]
+      },
+      {
+        "name": "Think Deeper",
+        "type": "Product",
+        "mentions": [
+          "Think Deeper"
+        ]
+      },
+      {
+        "name": "o1",
+        "type": "Product",
+        "mentions": [
+          "o1",
+          "o1"
+        ]
+      },
+      {
+        "name": "January 29, 2025",
+        "type": "Date",
+        "mentions": [
+          "Wednesday, January 29, 2025",
+          "Wednesday January 29, 2025",
+          "FY25"
+        ]
+      },
+      {
+        "name": "Fiscal Year 2025",
+        "type": "Date",
+        "mentions": [
+          "Microsoft Fiscal Year 2025",
+          "Microsoft Fiscal Year 2025",
+          "FY25",
+          "FY25",
+          "FY25",
+          "FY25"
+        ]
+      },
+      {
+        "name": "Second Quarter",
+        "type": "Date",
+        "mentions": [
+          "Second Quarter",
+          "Second Quarter",
+          "second quarter",
+          "second quarter",
+          "Q2",
+          "Q2",
+          "Q2",
+          "Q2",
+          "Q3",
+          "Q3",
+          "Q3",
+          "Q3",
+          "Q3",
+          "Q3",
+          "Q3",
+          "Q3",
+          "Q3",
+          "Q3",
+          "Q3",
+          "Q3",
+          "Q4",
+          "Q4",
+          "FY25",
+          "FY25",
+          "FY25"
+        ]
+      },
+      {
+        "name": "Earnings Conference Call",
+        "type": "Event",
+        "mentions": [
+          "Earnings Conference Call",
+          "Earnings Conference Call",
+          "Earnings Conference Call"
+        ]
+      },
+      {
+        "name": "US",
+        "type": "Location",
+        "mentions": [
+          "US",
+          "US"
+        ]
+      }
+    ],
+    "context": "Scraped from URL: https://www.microsoft.com/en-us/investor/events/fy-2025/earnings-fy-2025-q2?msockid=1577e198d53e6c9137c9f558d4c36d59, Title: Microsoft Fiscal Year 2025 Second Quarter Earnings Conference Call"
+  }
