@@ -1,0 +1,114 @@
+{
+    "success": true,
+    "extraction_type": "custom",
+    "source_type": "pdf",
+    "data": {
+      "data": {
+        "chapters": [
+          {
+            "name": "Chapter 1. Best Friends",
+            "about": "This chapter introduces the concept of codes by exploring how two 10-year-old best friends communicate using flashlights and eventually discover Morse code as a more efficient method."
+          },
+          {
+            "name": "Chapter 2. Codes and Combinations",
+            "about": "This chapter delves into the structure of Morse code, examining how the number of dots and dashes relates to the number of possible codes and introducing the concept of binary codes and combinatorics."
+          },
+          {
+            "name": "Chapter 3. Braille and Binary Codes",
+            "about": "This chapter explores Braille code, highlighting its binary nature and comparing it to Morse code. It discusses Louis Braille's invention and its significance for the blind."
+          },
+          {
+            "name": "Chapter 4. Anatomy of a Flashlight",
+            "about": "This chapter uses a flashlight to explain basic electrical concepts, including circuits, electrons, voltage, current, resistance, and Ohm's Law. It connects these concepts to the binary nature of on/off switches."
+          },
+          {
+            "name": "Chapter 5. Seeing Around Corners",
+            "about": "This chapter expands on the flashlight example to demonstrate the concept of a telegraph system, introducing the use of the earth as a conductor and explaining the limitations of long-distance wire transmission."
+          },
+          {
+            "name": "Chapter 6. Telegraphs and Relays",
+            "about": "This chapter discusses the invention of the telegraph by Samuel Morse and the use of electromagnets and relays to amplify signals over long distances. It introduces the concept of a relay as a switch controlled by electricity."
+          },
+          {
+            "name": "Chapter 7. Our Ten Digits",
+            "about": "This chapter explores the history of number systems, comparing Roman numerals to the Hindu-Arabic system. It emphasizes the importance of positional notation and the zero."
+          },
+          {
+            "name": "Chapter 8. Alternatives to Ten",
+            "about": "This chapter explores number systems other than base ten, including octal (base eight), quaternary (base four), and binary (base two). It demonstrates how to convert between these systems and decimal."
+          },
+          {
+            "name": "Chapter 9. Bit by Bit by Bit",
+            "about": "This chapter defines the bit as the basic unit of information and explores how multiple bits can represent choices among various possibilities. It uses examples such as lanterns, thumbs, and movie ratings."
+          },
+          {
+            "name": "Chapter 10. Logic and Switches",
+            "about": "This chapter introduces Boolean algebra and its relationship to electrical circuits. It explains how switches wired in series and parallel perform logical AND and OR operations."
+          },
+          {
+            "name": "Chapter 11. Gates (Not Bill)",
+            "about": "This chapter introduces logic gates (AND, OR, NAND, NOR) as combinations of relays or transistors that perform logical operations. It discusses Claude Shannon's work and De Morgan's Laws."
+          },
+          {
+            "name": "Chapter 12. A Binary Adding Machine",
+            "about": "This chapter describes the construction of a binary adding machine using logic gates. It explains how Half Adders and Full Adders work and how they can be combined to add multibit binary numbers."
+          },
+          {
+            "name": "Chapter 13. But What About Subtraction?",
+            "about": "This chapter explains how to perform subtraction using nines' complement and ones' complement, and how to modify the adding machine to perform subtraction using two's complement."
+          },
+          {
+            "name": "Chapter 14. Feedback and Flip-Flops",
+            "about": "This chapter introduces feedback circuits, oscillators, and flip-flops (R-S and D-type). It explains how flip-flops store information and how edge-triggered flip-flops differ from level-triggered ones."
+          },
+          {
+            "name": "Chapter 15. Bytes and Hex",
+            "about": "This chapter discusses bytes and hexadecimal notation as more concise ways to represent binary numbers. It explains how to convert between binary, hexadecimal, and decimal."
+          },
+          {
+            "name": "Chapter 16. An Assemblage of Memory",
+            "about": "This chapter explains how to construct multibit latches and RAM arrays from flip-flops. It discusses the difference between volatile and non-volatile memory and introduces kilobytes, megabytes, and gigabytes."
+          },
+          {
+            "name": "Chapter 17. Automation",
+            "about": "This chapter automates the process of adding and subtracting numbers using RAM and a counter. It introduces the concepts of instruction fetch, execution, and control signals, and develops a simple computer."
+          },
+          {
+            "name": "Chapter 18. From Abaci to Chips",
+            "about": "This chapter reviews the history of calculating devices, from abaci to mechanical calculators to relay computers and vacuum tube computers. It introduces the transistor and integrated circuits."
+          },
+          {
+            "name": "Chapter 19. Two Classic Microprocessors",
+            "about": "This chapter examines the Intel 8080 and Motorola 6800 microprocessors, comparing their architectures and instruction sets. It discusses addressing modes, flags, and interrupts."
+          },
+          {
+            "name": "Chapter 20. ASCII and a Cast of Characters",
+            "about": "This chapter explores character encoding schemes, comparing Baudot code to ASCII and EBCDIC. It discusses control characters and the limitations of ASCII."
+          },
+          {
+            "name": "Chapter 21. Get on the Bus",
+            "about": "This chapter describes the bus architecture of a computer, explaining how various components (memory, keyboard, video display, disk drive) are connected and communicate."
+          },
+          {
+            "name": "Chapter 22. The Operating System",
+            "about": "This chapter discusses the role of the operating system, focusing on CP/M and MS-DOS. It explains how operating systems manage files, provide APIs, and handle interrupts."
+          },
+          {
+            "name": "Chapter 23. Fixed Point, Floating Point",
+            "about": "This chapter explores different ways to represent numbers in computer memory, comparing fixed-point and floating-point formats. It discusses the IEEE floating-point standard and its limitations."
+          },
+          {
+            "name": "Chapter 24. Languages High and Low",
+            "about": "This chapter compares machine code, assembly language, and high-level programming languages (ALGOL, FORTRAN, COBOL, Pascal, C). It discusses compilers, interpreters, and the advantages and disadvantages of different languages."
+          },
+          {
+            "name": "Chapter 25. The Graphical Revolution",
+            "about": "This chapter discusses the evolution of graphical user interfaces (GUIs), from early vector displays to modern raster displays. It explores the role of object-oriented programming and multimedia."
+          }
+        ]
+      }
+    },
+    "key_value_pairs": [],
+    "entities": [],
+    "context": "PDF Document: code-charles-petzold.pdf, Pages: 363, Title: Code: The Hidden Language of Computer Hardware and Software"
+  }
