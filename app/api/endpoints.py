@@ -76,16 +76,6 @@ async def summarize_content(
     temp_file_path = None
     
     try:
-        # Validate request
-        if source_type == ContentSourceType.URL and not url:
-            raise HTTPException(status_code=400, detail="URL is required for URL source type")
-        
-        if source_type == ContentSourceType.TEXT and not text:
-            raise HTTPException(status_code=400, detail="Text is required for TEXT source type")
-        
-        if source_type == ContentSourceType.PDF and not file:
-            raise HTTPException(status_code=400, detail="File is required for PDF source type")
-        
         # Initialize LLM / Summary services
         llm_provider = LLMProviderFactory.get_provider()
         summarization_service = SummarizationService(llm_provider=llm_provider)
