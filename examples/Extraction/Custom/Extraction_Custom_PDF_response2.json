@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "extraction_type": "custom",
+  "source_type": "pdf",
+  "data": {
+    "data": {
+      "golf_mentions": [
+        {
+          "location": "Prologue: A Note from Ireland",
+          "context": "We recovered from the Blarney stone by spending a quiet weekend playing golf—at Waterville on Saturday and at Dooks on Sunday—and driving along the beautiful Ring of Kerry."
+        },
+        {
+          "location": "Prologue: A Note from Ireland",
+          "context": "On Monday, October 19, I faced the ultimate challenge, which demanded every bit of intelligence and stamina that I could muster—the eighteen holes at the Killeen course in Killarney, one of the most difficult courses in the world."
+        }
+      ]
+    }
+  },
+  "key_value_pairs": [],
+  "entities": [],
+  "context": "PDF Document: Peter_Lynch_one-up-on-wall-street.pdf, Pages: 320, Title: One Up on Wall Street"
+}
