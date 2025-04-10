@@ -1,0 +1,96 @@
+{
+    "success": true,
+    "extraction_type": "custom",
+    "source_type": "url",
+    "data": {
+      "data": {
+        "EnglishPremierLeague": [
+          {
+            "team1": "Brentford",
+            "score1": 0,
+            "team2": "Chelsea",
+            "score2": 0
+          },
+          {
+            "team1": "Fulham",
+            "score1": 3,
+            "team2": "Liverpool",
+            "score2": 2
+          },
+          {
+            "team1": "Tottenham Hotspur",
+            "score1": 3,
+            "team2": "Southampton",
+            "score2": 1
+          },
+          {
+            "team1": "Manchester United",
+            "score1": 0,
+            "team2": "Manchester City",
+            "score2": 0
+          }
+        ],
+        "SpanishLaliga": [
+          {
+            "team1": "Las Palmas",
+            "score1": 1,
+            "team2": "Real Sociedad",
+            "score2": 3
+          },
+          {
+            "team1": "Sevilla",
+            "score1": 1,
+            "team2": "Atlético Madrid",
+            "score2": 2
+          },
+          {
+            "team1": "Real Valladolid",
+            "score1": 0,
+            "team2": "Getafe",
+            "score2": 4
+          },
+          {
+            "team1": "Villarreal",
+            "score1": 0,
+            "team2": "Athletic Club",
+            "score2": 0
+          }
+        ],
+        "ItalianSerieA": [
+          {
+            "team1": "Lecce",
+            "score1": 1,
+            "team2": "Venezia",
+            "score2": 1
+          },
+          {
+            "team1": "Empoli",
+            "score1": 0,
+            "team2": "Cagliari",
+            "score2": 0
+          },
+          {
+            "team1": "Torino",
+            "score1": 1,
+            "team2": "Hellas Verona",
+            "score2": 1
+          },
+          {
+            "team1": "Atalanta",
+            "score1": 0,
+            "team2": "Lazio",
+            "score2": 1
+          },
+          {
+            "team1": "AS Roma",
+            "score1": 1,
+            "team2": "Juventus",
+            "score2": 1
+          }
+        ]
+      }
+    },
+    "key_value_pairs": [],
+    "entities": [],
+    "context": "Scraped from URL: https://www.espn.com/soccer/scoreboard/_/date/20250406, Title: Soccer Scores - April 6, 2025 - ESPN"
+  }
