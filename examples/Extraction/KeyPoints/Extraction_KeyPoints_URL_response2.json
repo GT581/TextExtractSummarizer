@@ -1,0 +1,40 @@
+{
+    "success": true,
+    "extraction_type": "key_points",
+    "source_type": "url",
+    "data": {},
+    "key_value_pairs": [
+      {
+        "key": "Top Gaining Stock (Percentage Change)",
+        "value": "agilon health, inc. (AGL) with a +26.12% increase",
+        "confidence": null
+      },
+      {
+        "key": "Top Gaining Stocks (List)",
+        "value": "The top 10 stocks by percentage change include AGL, TNXP, HUM, SMTOY, AVAV, ALHC, HCC, CVS, UNH, and DLICY.",
+        "confidence": null
+      },
+      {
+        "key": "Significant Gainers (Over 5%)",
+        "value": "Many stocks experienced significant gains, with several exceeding a 5% increase in price.",
+        "confidence": null
+      },
+      {
+        "key": "Market Cap of Top Gainers (Examples)",
+        "value": "Humana Inc. (HUM) has a market cap of $34.029B, while UnitedHealth Group (UNH) has a market cap of $505.909B.",
+        "confidence": null
+      },
+      {
+        "key": "Price Changes (Examples)",
+        "value": "CVS Health Corporation (CVS) increased by $3.78, while UnitedHealth Group (UNH) increased by $28.38.",
+        "confidence": null
+      },
+      {
+        "key": "52-Week Change (Examples)",
+        "value": "Some stocks show significant 52-week changes, such as Tonix Pharmaceuticals (TNXP) at -96.36% and Carvana Co. (CVNA) at +118.98%.",
+        "confidence": null
+      }
+    ],
+    "entities": [],
+    "context": "Scraped from URL: https://finance.yahoo.com/markets/stocks/gainers/?start=0&count=100, Title: Top Stock Gains: US stocks posting the highest gains today - Yahoo Finance"
+  }
