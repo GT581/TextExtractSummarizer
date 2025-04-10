@@ -1,0 +1,575 @@
+{
+  "success": true,
+  "extraction_type": "entities",
+  "source_type": "pdf",
+  "data": {},
+  "key_value_pairs": [],
+  "entities": [
+    {
+      "name": "Charles Petzold",
+      "type": "Person",
+      "mentions": ["Charles Petzold", "Charles"]
+    },
+    {
+      "name": "Microsoft Press",
+      "type": "Organization",
+      "mentions": ["Microsoft Press"]
+    },
+    {
+      "name": "Microsoft Corporation",
+      "type": "Organization",
+      "mentions": ["Microsoft Corporation", "Microsoft"]
+    },
+    {
+      "name": "Apple Computer, Inc.",
+      "type": "Organization",
+      "mentions": ["Apple Computer, Inc.", "Apple"]
+    },
+    {
+      "name": "Corbis Images",
+      "type": "Organization",
+      "mentions": ["Corbis Images"]
+    },
+    { "name": "Joel Panchot", "type": "Person", "mentions": ["Joel Panchot"] },
+    {
+      "name": "Ziff-Davis",
+      "type": "Organization",
+      "mentions": ["Ziff-Davis"]
+    },
+    {
+      "name": "Ziff family",
+      "type": "Organization",
+      "mentions": ["Ziff family"]
+    },
+    { "name": "O’Reilly", "type": "Organization", "mentions": ["O’Reilly"] },
+    {
+      "name": "Charles Babbage",
+      "type": "Person",
+      "mentions": ["Charles Babbage"]
+    },
+    { "name": "George Boole", "type": "Person", "mentions": ["George Boole"] },
+    {
+      "name": "Louis Braille",
+      "type": "Person",
+      "mentions": ["Louis Braille"]
+    },
+    {
+      "name": "Herman Hollerith",
+      "type": "Person",
+      "mentions": ["Herman Hollerith"]
+    },
+    {
+      "name": "Samuel Morse",
+      "type": "Person",
+      "mentions": ["Samuel Morse", "Samuel Finley Breese Morse"]
+    },
+    {
+      "name": "John von Neumann",
+      "type": "Person",
+      "mentions": ["John von Neumann", "von Neumann"]
+    },
+    {
+      "name": "Valentin Haüy",
+      "type": "Person",
+      "mentions": ["Valentin Haüy"]
+    },
+    {
+      "name": "Charles Barbier",
+      "type": "Person",
+      "mentions": ["Charles Barbier"]
+    },
+    {
+      "name": "Louis Daguerre",
+      "type": "Person",
+      "mentions": ["Louis Daguerre"]
+    },
+    { "name": "Mathew Brady", "type": "Person", "mentions": ["Mathew Brady"] },
+    {
+      "name": "Abraham Lincoln",
+      "type": "Person",
+      "mentions": ["Abraham Lincoln"]
+    },
+    {
+      "name": "Gabriel Garcia Marquez",
+      "type": "Person",
+      "mentions": ["Gabriel Garcia Marquez"]
+    },
+    {
+      "name": "Thomas Alva Edison",
+      "type": "Person",
+      "mentions": ["Thomas Alva Edison", "Thomas Alva Edison"]
+    },
+    {
+      "name": "Alessandro Volta",
+      "type": "Person",
+      "mentions": ["Alessandro Volta"]
+    },
+    {
+      "name": "André Marie Ampère",
+      "type": "Person",
+      "mentions": ["André Marie Ampère"]
+    },
+    {
+      "name": "Georg Simon Ohm",
+      "type": "Person",
+      "mentions": ["Georg Simon Ohm"]
+    },
+    { "name": "James Watt", "type": "Person", "mentions": ["James Watt"] },
+    {
+      "name": "Gottfried Wilhelm von Leibniz",
+      "type": "Person",
+      "mentions": ["Gottfried Wilhelm von Leibniz", "Leibniz"]
+    },
+    { "name": "Isaac Newton", "type": "Person", "mentions": ["Isaac Newton"] },
+    {
+      "name": "Augustus De Morgan",
+      "type": "Person",
+      "mentions": ["Augustus De Morgan", "De Morgan"]
+    },
+    {
+      "name": "Claude Elwood Shannon",
+      "type": "Person",
+      "mentions": ["Claude Elwood Shannon", "Shannon"]
+    },
+    {
+      "name": "John Wilder Tukey",
+      "type": "Person",
+      "mentions": ["John Wilder Tukey"]
+    },
+    { "name": "Tony Orlando", "type": "Person", "mentions": ["Tony Orlando"] },
+    { "name": "Paul Revere", "type": "Person", "mentions": ["Paul Revere"] },
+    {
+      "name": "Henry Wadsworth Longfellow",
+      "type": "Person",
+      "mentions": ["Henry Wadsworth Longfellow"]
+    },
+    { "name": "Roger Ebert", "type": "Person", "mentions": ["Roger Ebert"] },
+    { "name": "Gene Siskel", "type": "Person", "mentions": ["Gene Siskel"] },
+    {
+      "name": "Leonard Maltin",
+      "type": "Person",
+      "mentions": ["Leonard Maltin"]
+    },
+    { "name": "Pauly Shore", "type": "Person", "mentions": ["Pauly Shore"] },
+    {
+      "name": "Beethoven",
+      "type": "Person",
+      "mentions": ["Beethoven", "Ludwig"]
+    },
+    {
+      "name": "British Broadcasting Corporation",
+      "type": "Organization",
+      "mentions": ["British Broadcasting Corporation"]
+    },
+    {
+      "name": "George Washington",
+      "type": "Person",
+      "mentions": ["George Washington"]
+    },
+    {
+      "name": "Catherine the Great",
+      "type": "Person",
+      "mentions": ["Catherine the Great"]
+    },
+    { "name": "Louis XVI", "type": "Person", "mentions": ["Louis XVI"] },
+    {
+      "name": "Marie Antoinette",
+      "type": "Person",
+      "mentions": ["Marie Antoinette"]
+    },
+    { "name": "Mozart", "type": "Person", "mentions": ["Mozart"] },
+    {
+      "name": "General Lafayette",
+      "type": "Person",
+      "mentions": ["General Lafayette"]
+    },
+    { "name": "Emile Baudot", "type": "Person", "mentions": ["Emile Baudot"] },
+    {
+      "name": "Donald Murray",
+      "type": "Person",
+      "mentions": ["Donald Murray"]
+    },
+    { "name": "John Kemeny", "type": "Person", "mentions": ["John Kemeny"] },
+    { "name": "Thomas Kurtz", "type": "Person", "mentions": ["Thomas Kurtz"] },
+    {
+      "name": "Anders Hejlsberg",
+      "type": "Person",
+      "mentions": ["Anders Hejlsberg"]
+    },
+    {
+      "name": "Niklaus Wirth",
+      "type": "Person",
+      "mentions": ["Niklaus Wirth"]
+    },
+    { "name": "Ken Thompson", "type": "Person", "mentions": ["Ken Thompson"] },
+    {
+      "name": "Dennis Ritchie",
+      "type": "Person",
+      "mentions": ["Dennis Ritchie", "Ritchie"]
+    },
+    {
+      "name": "Richard Stallman",
+      "type": "Person",
+      "mentions": ["Richard Stallman"]
+    },
+    {
+      "name": "Linus Torvalds",
+      "type": "Person",
+      "mentions": ["Linus Torvalds"]
+    },
+    { "name": "Bill Gates", "type": "Person", "mentions": ["Bill Gates"] },
+    {
+      "name": "Grace Murray Hopper",
+      "type": "Person",
+      "mentions": ["Grace Murray Hopper", "Dr. Hopper", "Hopper"]
+    },
+    { "name": "John Bardeen", "type": "Person", "mentions": ["John Bardeen"] },
+    {
+      "name": "Walter Brattain",
+      "type": "Person",
+      "mentions": ["Walter Brattain"]
+    },
+    {
+      "name": "William Shockley",
+      "type": "Person",
+      "mentions": ["William Shockley", "Shockley"]
+    },
+    {
+      "name": "John Ambrose Fleming",
+      "type": "Person",
+      "mentions": ["John Ambrose Fleming"]
+    },
+    {
+      "name": "Lee de Forest",
+      "type": "Person",
+      "mentions": ["Lee de Forest"]
+    },
+    {
+      "name": "Alan M. Turing",
+      "type": "Person",
+      "mentions": ["Alan M. Turing", "Turing"]
+    },
+    {
+      "name": "J. Presper Eckert",
+      "type": "Person",
+      "mentions": ["J. Presper Eckert", "Eckert"]
+    },
+    {
+      "name": "John Mauchly",
+      "type": "Person",
+      "mentions": ["John Mauchly", "Mauchly"]
+    },
+    {
+      "name": "John von Neumann",
+      "type": "Person",
+      "mentions": ["John von Neumann", "von Neumann"]
+    },
+    {
+      "name": "Arthur W. Burks",
+      "type": "Person",
+      "mentions": ["Arthur W. Burks"]
+    },
+    {
+      "name": "Herman H. Goldstine",
+      "type": "Person",
+      "mentions": ["Herman H. Goldstine"]
+    },
+    {
+      "name": "John V. Atanasoff",
+      "type": "Person",
+      "mentions": ["John V. Atanasoff"]
+    },
+    { "name": "Conrad Zuse", "type": "Person", "mentions": ["Conrad Zuse"] },
+    {
+      "name": "George Stibitz",
+      "type": "Person",
+      "mentions": ["George Stibitz", "Stibitz"]
+    },
+    {
+      "name": "Howard Aiken",
+      "type": "Person",
+      "mentions": ["Howard Aiken", "Aiken"]
+    },
+    {
+      "name": "Geoffrey Dummer",
+      "type": "Person",
+      "mentions": ["Geoffrey Dummer"]
+    },
+    {
+      "name": "Jack Kilby",
+      "type": "Person",
+      "mentions": ["Jack Kilby", "Kilby"]
+    },
+    {
+      "name": "Robert Noyce",
+      "type": "Person",
+      "mentions": ["Robert Noyce", "Noyce"]
+    },
+    {
+      "name": "Gordon E. Moore",
+      "type": "Person",
+      "mentions": ["Gordon E. Moore", "Moore"]
+    },
+    { "name": "Ted Hoff", "type": "Person", "mentions": ["Ted Hoff"] },
+    { "name": "Steven Jobs", "type": "Person", "mentions": ["Steven Jobs"] },
+    {
+      "name": "Stephen Wozniak",
+      "type": "Person",
+      "mentions": ["Stephen Wozniak"]
+    },
+    {
+      "name": "Federico Faggin",
+      "type": "Person",
+      "mentions": ["Federico Faggin"]
+    },
+    { "name": "Dan Bricklin", "type": "Person", "mentions": ["Dan Bricklin"] },
+    {
+      "name": "Bob Frankston",
+      "type": "Person",
+      "mentions": ["Bob Frankston"]
+    },
+    {
+      "name": "Ivan Sutherland",
+      "type": "Person",
+      "mentions": ["Ivan Sutherland"]
+    },
+    {
+      "name": "Douglas Engelbart",
+      "type": "Person",
+      "mentions": ["Douglas Engelbart", "Engelbart"]
+    },
+    { "name": "Alan Kay", "type": "Person", "mentions": ["Alan Kay"] },
+    { "name": "John Warnock", "type": "Person", "mentions": ["John Warnock"] },
+    { "name": "Gary Kildall", "type": "Person", "mentions": ["Gary Kildall"] },
+    { "name": "Tim Paterson", "type": "Person", "mentions": ["Tim Paterson"] },
+    { "name": "Bill Gates", "type": "Person", "mentions": ["Bill Gates"] },
+    { "name": "Paul Allen", "type": "Person", "mentions": ["Paul Allen"] },
+    {
+      "name": "Bjarne Stroustrup",
+      "type": "Person",
+      "mentions": ["Bjarne Stroustrup"]
+    },
+    {
+      "name": "Vannevar Bush",
+      "type": "Person",
+      "mentions": ["Vannevar Bush", "Van Bush"]
+    },
+    {
+      "name": "Vaslav Nijinsky",
+      "type": "Person",
+      "mentions": ["Vaslav Nijinsky"]
+    },
+    {
+      "name": "Oberlin Smith",
+      "type": "Person",
+      "mentions": ["Oberlin Smith"]
+    },
+    {
+      "name": "Valdemar Poulsen",
+      "type": "Person",
+      "mentions": ["Valdemar Poulsen"]
+    },
+    {
+      "name": "Fritz Pfleumer",
+      "type": "Person",
+      "mentions": ["Fritz Pfleumer"]
+    },
+    {
+      "name": "Harry Nyquist",
+      "type": "Person",
+      "mentions": ["Harry Nyquist"]
+    },
+    {
+      "name": "Thomas J. Watson",
+      "type": "Person",
+      "mentions": ["Thomas J. Watson"]
+    },
+    {
+      "name": "Herman Hollerith",
+      "type": "Person",
+      "mentions": ["Herman Hollerith"]
+    },
+    {
+      "name": "Augusta Ada Byron",
+      "type": "Person",
+      "mentions": ["Augusta Ada Byron", "Ada Byron", "Ada"]
+    },
+    {
+      "name": "John von Neumann",
+      "type": "Person",
+      "mentions": ["John von Neumann", "von Neumann"]
+    },
+    {
+      "name": "Claude Elwood Shannon",
+      "type": "Person",
+      "mentions": ["Claude Elwood Shannon", "Shannon"]
+    },
+    {
+      "name": "Norbert Wiener",
+      "type": "Person",
+      "mentions": ["Norbert Wiener"]
+    },
+    {
+      "name": "William Gibson",
+      "type": "Person",
+      "mentions": ["William Gibson"]
+    },
+    {
+      "name": "J. Presper Eckert",
+      "type": "Person",
+      "mentions": ["J. Presper Eckert", "Eckert"]
+    },
+    {
+      "name": "John Mauchly",
+      "type": "Person",
+      "mentions": ["John Mauchly", "Mauchly"]
+    },
+    {
+      "name": "John von Neumann",
+      "type": "Person",
+      "mentions": ["John von Neumann", "von Neumann"]
+    },
+    {
+      "name": "Alan M. Turing",
+      "type": "Person",
+      "mentions": ["Alan M. Turing", "Turing"]
+    },
+    {
+      "name": "John von Neumann",
+      "type": "Person",
+      "mentions": ["John von Neumann"]
+    },
+    {
+      "name": "Robert Heinlein",
+      "type": "Person",
+      "mentions": ["Robert Heinlein"]
+    },
+    { "name": "Steve Jobs", "type": "Person", "mentions": ["Steve Jobs"] },
+    {
+      "name": "Sheryl Canter",
+      "type": "Person",
+      "mentions": ["Sheryl Canter"]
+    },
+    { "name": "Jan Eastlund", "type": "Person", "mentions": ["Jan Eastlund"] },
+    {
+      "name": "Peter Goldeman",
+      "type": "Person",
+      "mentions": ["Peter Goldeman"]
+    },
+    {
+      "name": "Lynn Magalska",
+      "type": "Person",
+      "mentions": ["Lynn Magalska"]
+    },
+    {
+      "name": "Deirdre Sinnott",
+      "type": "Person",
+      "mentions": ["Deirdre Sinnott", "Deirdre"]
+    },
+    {
+      "name": "Claudette Moore",
+      "type": "Person",
+      "mentions": ["Claudette Moore"]
+    },
+    { "name": "Bill Gates", "type": "Person", "mentions": ["Bill Gates"] },
+    { "name": "Greg Hickman", "type": "Person", "mentions": ["Greg Hickman"] },
+    { "name": "Jimmie Young", "type": "Person", "mentions": ["Jimmie Young"] },
+    { "name": "Sally Slevin", "type": "Person", "mentions": ["Sally Slevin"] },
+    {
+      "name": "Elizabeth Hansford",
+      "type": "Person",
+      "mentions": ["Elizabeth Hansford"]
+    },
+    { "name": "Shawn Peck", "type": "Person", "mentions": ["Shawn Peck"] },
+    {
+      "name": "Liz Cunningham",
+      "type": "Person",
+      "mentions": ["Liz Cunningham"]
+    },
+    { "name": "Eratosthenes", "type": "Person", "mentions": ["Eratosthenes"] },
+    {
+      "name": "John McCarthy",
+      "type": "Person",
+      "mentions": ["John McCarthy"]
+    },
+    {
+      "name": "Kenneth Iverson",
+      "type": "Person",
+      "mentions": ["Kenneth Iverson"]
+    },
+    {
+      "name": "Microsoft",
+      "type": "Organization",
+      "mentions": ["Microsoft", "Microsoft®", "Microsoft®"]
+    },
+    {
+      "name": "Windows Magazine",
+      "type": "Organization",
+      "mentions": ["Windows Magazine"]
+    },
+    {
+      "name": "Intel Corporation",
+      "type": "Organization",
+      "mentions": ["Intel Corporation", "Intel"]
+    },
+    {
+      "name": "Texas Instruments",
+      "type": "Organization",
+      "mentions": ["Texas Instruments"]
+    },
+    {
+      "name": "Fairchild Semiconductor Corporation",
+      "type": "Organization",
+      "mentions": ["Fairchild Semiconductor Corporation", "Fairchild"]
+    },
+    {
+      "name": "Bell Telephone Laboratories",
+      "type": "Organization",
+      "mentions": [
+        "Bell Telephone Laboratories",
+        "Bell Labs",
+        "Bell Labs",
+        "Bell Telephone Laboratories"
+      ]
+    },
+    {
+      "name": "American Telephone and Telegraph",
+      "type": "Organization",
+      "mentions": ["American Telephone and Telegraph", "AT&T", "AT&T"]
+    },
+    {
+      "name": "Shockley Semiconductor Laboratories",
+      "type": "Organization",
+      "mentions": ["Shockley Semiconductor Laboratories"]
+    },
+    {
+      "name": "Keuffel & Esser Company",
+      "type": "Organization",
+      "mentions": ["Keuffel & Esser Company"]
+    },
+    {
+      "name": "Smithsonian Institution",
+      "type": "Organization",
+      "mentions": ["Smithsonian Institution"]
+    },
+    {
+      "name": "International Business Machines Corporation",
+      "type": "Organization",
+      "mentions": [
+        "International Business Machines Corporation",
+        "IBM",
+        "IBM",
+        "IBM"
+      ]
+    },
+    { 
+      "name": "MIT", 
+      "type": "Organization", 
+      "mentions": [
+        "MIT", 
+        "M.I.T."
+      ] 
+    }
+  ],
+  "context": "PDF Document: code-charles-petzold.pdf, Pages: 363, Title: Code: The Hidden Language of Computer Hardware and Software"
+}
