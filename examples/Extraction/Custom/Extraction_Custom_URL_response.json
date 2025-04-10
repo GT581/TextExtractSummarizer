@@ -1,0 +1,35 @@
+{
+    "success": true,
+    "extraction_type": "custom",
+    "source_type": "url",
+    "data": {
+      "countries_with_most_cats": [
+        {
+          "country": "United States",
+          "cat_population": "73.8 million",
+          "notes": "Leads in cat ownership despite having a significantly smaller human population than Asia."
+        },
+        {
+          "country": "China",
+          "cat_population": "58 million",
+          "notes": "Part of the 400 million cats residing in Asia."
+        },
+        {
+          "country": "United Kingdom",
+          "cat_population": "10.9 million",
+          "notes": "Approximate number of domestic cats kept as pets."
+        }
+      ],
+      "global_estimates": {
+        "total_cats": "600 million (estimated)",
+        "asia": "400 million (residing in Asia)"
+      },
+      "data_limitations": [
+        "The provided text offers estimates and specific numbers for only a few countries.  A comprehensive list of countries with the most cats as pets is not available in this text.",
+        "The data presented is a mix of total cat populations (including feral cats) and pet cat populations, making direct comparison challenging."
+      ]
+    },
+    "key_value_pairs": [],
+    "entities": [],
+    "context": "Scraped from URL: https://en.wikipedia.org/wiki/Cat, Title: Cat - Wikipedia"
+  }
