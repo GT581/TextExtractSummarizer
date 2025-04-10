@@ -32,10 +32,10 @@ class Settings(BaseSettings):
 
     LLM_TEMPERATURE: float = 0.1
     LLM_TOP_P: float = 0.95
-    LLM_MAX_TOKENS: int = 1024
+    LLM_MAX_TOKENS: int = 8192
     
     # App Defaults
-    DEFAULT_MAX_SUMMARY_LENGTH: int = 2000
+    DEFAULT_MAX_SUMMARY_LENGTH: int = 5000
     UPLOAD_DIR: str = "uploads"
     DEFAULT_LLM_PROVIDER: str = 'google'
 
