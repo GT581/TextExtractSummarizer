@@ -50,11 +50,9 @@ class KeyValuePair(BaseModel):
     Attributes:
         key (str): The key or label
         value (str): The extracted value
-        confidence (Optional[float]): Confidence score for the extraction
     """
     key: str
     value: str
-    confidence: Optional[float] = None
 
 
 class Entity(BaseModel):
