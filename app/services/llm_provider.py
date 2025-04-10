@@ -87,7 +87,8 @@ class GoogleGeminiProvider(LLMProvider):
             logger.error(f"Error generating text with Google Gemini: {str(e)}")
 
             return f"Error generating text: {str(e)}"
-   
+        
+    #TODO: use in the future if adding a front end to interact with LLM (change / adjust responses)
     async def generate_chat_response(self, messages: List[Dict[str, str]]) -> str:
         """
         Generate a response using Google Gemini chat mode.

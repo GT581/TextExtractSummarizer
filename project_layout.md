@@ -37,8 +37,6 @@ text_extract_summarizer/
 ├── examples/                   # API examples
 ├── .env                        # Environment variables
 ├── requirements.txt            # Project dependencies
-├── setup.py                    # Setup script
-├── test_api.py                 # API testing script
 ├── README.md                   # Project documentation
 └── PROJECT_LAYOUT.md           # This file
 ```
