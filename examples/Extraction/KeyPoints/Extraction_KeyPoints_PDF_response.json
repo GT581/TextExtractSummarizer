@@ -1,0 +1,85 @@
+{
+    "success": true,
+    "extraction_type": "key_points",
+    "source_type": "pdf",
+    "data": {},
+    "key_value_pairs": [
+      {
+        "key": "Peter Lynch's Investment Philosophy",
+        "value": "Average investors can successfully pick winning stocks by conducting thorough research, focusing on companies they understand from their daily lives, and ignoring market speculation.",
+        "confidence": null
+      },
+      {
+        "key": "Identifying Tenbaggers",
+        "value": "Tenbaggers (stocks that appreciate tenfold or more) are often found in familiar companies encountered in daily life (e.g., shopping malls, workplace), before professional analysts discover them.",
+        "confidence": null
+      },
+      {
+        "key": "Advantages of Amateur Investors",
+        "value": "Amateur investors possess advantages over professionals, including direct access to company information through their jobs or daily interactions, and the ability to maintain long-term perspectives without the pressures of short-term performance evaluations.",
+        "confidence": null
+      },
+      {
+        "key": "Stocks vs. Bonds",
+        "value": "While bonds offer stability and predictable returns, especially during market downturns, stocks historically provide superior long-term returns due to the potential for company growth.  However, stocks carry higher risk.",
+        "confidence": null
+      },
+      {
+        "key": "Importance of Personal Financial Situation",
+        "value": "Before investing in stocks, assess your financial needs and risk tolerance.  Homeownership should be prioritized, and only invest money you can afford to lose without impacting your daily life.",
+        "confidence": null
+      },
+      {
+        "key": "Market Prediction Futility",
+        "value": "Predicting short-term market movements is unreliable. Focus on identifying fundamentally strong companies regardless of market trends.",
+        "confidence": null
+      },
+      {
+        "key": "Characteristics of Successful Companies",
+        "value": "Favor companies with simple, understandable businesses, boring names, strong balance sheets (low debt, high cash), consistent earnings growth, and a niche market.  Insider buying is a positive indicator.",
+        "confidence": null
+      },
+      {
+        "key": "Companies to Avoid",
+        "value": "Avoid hot stocks in hot industries, companies heavily reliant on a single customer, those touted as 'the next big thing,' and companies with a history of poor acquisitions (diworseification).",
+        "confidence": null
+      },
+      {
+        "key": "Analyzing Company Performance",
+        "value": "Analyze companies using key metrics: price-to-earnings ratio (P/E), cash position, debt-to-equity ratio, dividend history, book value, cash flow, and inventory levels.  Compare these metrics to industry averages and historical trends.",
+        "confidence": null
+      },
+      {
+        "key": "Developing and Rechecking the Investment Story",
+        "value": "Develop a concise, easily understandable narrative explaining the company's business, growth strategy, and potential risks. Regularly recheck this story to ensure the company's prospects remain favorable.",
+        "confidence": null
+      },
+      {
+        "key": "Portfolio Design and Stock Rotation",
+        "value": "Diversify across different stock categories (slow growers, stalwarts, fast growers, cyclicals, asset plays, turnarounds) to manage risk.  Regularly rotate stocks based on fundamental changes and price movements relative to the investment story.",
+        "confidence": null
+      },
+      {
+        "key": "When to Buy and Sell",
+        "value": "Buy during periods of market downturn (e.g., year-end tax selling, market crashes) and when fundamentally sound companies are undervalued. Sell when the investment story deteriorates, the company reaches its growth limits, or when a significant profit has been realized.",
+        "confidence": null
+      },
+      {
+        "key": "Avoiding Common Investment Mistakes",
+        "value": "Avoid common pitfalls such as believing a stock 'can't go lower,' assuming a stock 'always comes back,' or basing decisions solely on short-term price fluctuations.  Ignore market timing advice and focus on long-term company performance.",
+        "confidence": null
+      },
+      {
+        "key": "Risks of Options, Futures, and Short Selling",
+        "value": "Options and futures are high-risk, speculative investments unsuitable for most amateur investors. Short selling, while potentially profitable, requires significant expertise, risk tolerance, and resources.",
+        "confidence": null
+      },
+      {
+        "key": "Market Events and Long-Term Investing",
+        "value": "Major news events often have minimal long-term impact on stock prices. Focus on long-term company fundamentals rather than reacting to short-term market fluctuations or news headlines.",
+        "confidence": null
+      }
+    ],
+    "entities": [],
+    "context": "PDF Document: Peter_Lynch_one-up-on-wall-street.pdf, Pages: 320, Title: One Up on Wall Street"
+  }

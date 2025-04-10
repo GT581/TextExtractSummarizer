@@ -22,7 +22,7 @@ class Settings(BaseSettings):
     """
     PROJECT_NAME: str = "Text Extract & Summarizer API"
     PROJECT_DESCRIPTION: str = "An API that summarizes content from multiple sources and extracts specific information from text"
-    PROJECT_VERSION: str = "0.1.0"
+    PROJECT_VERSION: str = "1.0.0"
     API_PREFIX: str = "/api"
     CORS_ORIGINS: List[str] = ["*"]
     
@@ -32,10 +32,10 @@ class Settings(BaseSettings):
 
     LLM_TEMPERATURE: float = 0.1
     LLM_TOP_P: float = 0.95
-    LLM_MAX_TOKENS: int = 1024
+    LLM_MAX_TOKENS: int = 8192
     
     # App Defaults
-    DEFAULT_MAX_SUMMARY_LENGTH: int = 1000
+    DEFAULT_MAX_SUMMARY_LENGTH: int = 5000
     UPLOAD_DIR: str = "uploads"
     DEFAULT_LLM_PROVIDER: str = 'google'
 

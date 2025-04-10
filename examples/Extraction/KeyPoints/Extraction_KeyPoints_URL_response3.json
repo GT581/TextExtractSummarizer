@@ -1,0 +1,85 @@
+{
+    "success": true,
+    "extraction_type": "key_points",
+    "source_type": "url",
+    "data": {},
+    "key_value_pairs": [
+      {
+        "key": "Arsenal's Champions League Victory",
+        "value": "Arsenal secured a significant Champions League win against Real Madrid.",
+        "confidence": null
+      },
+      {
+        "key": "UCL Quarterfinal X Factors",
+        "value": "The article discusses key players who will determine the outcome of the Champions League quarterfinals.",
+        "confidence": null
+      },
+      {
+        "key": "PSG's Transformation under Luis Enrique",
+        "value": "Luis Enrique's coaching has transformed PSG into a top European team.",
+        "confidence": null
+      },
+      {
+        "key": "Inter's Champions League Prospects",
+        "value": "Lautaro Martínez and Marcus Thuram's performance will be crucial for Inter's success in the Champions League.",
+        "confidence": null
+      },
+      {
+        "key": "Premier League Champions League Qualification",
+        "value": "The article explains how Premier League teams can qualify for the Champions League, Europa League, and Conference League.",
+        "confidence": null
+      },
+      {
+        "key": "Extra UCL Places",
+        "value": "The article discusses the allocation of extra places in the next Champions League season.",
+        "confidence": null
+      },
+      {
+        "key": "MLS Power Rankings",
+        "value": "Inter Miami, led by Messi, remains at the top of the MLS Power Rankings.",
+        "confidence": null
+      },
+      {
+        "key": "Manchester Derby Analysis",
+        "value": "The Manchester derby highlighted the shortcomings of both Manchester City and Manchester United.",
+        "confidence": null
+      },
+      {
+        "key": "Man United's Transfer Target",
+        "value": "Liam Delap is Man United's top transfer target.",
+        "confidence": null
+      },
+      {
+        "key": "France's Euro 2025 Prospects",
+        "value": "Wendie Renard and Eugénie Le Sommer will lead France in the Euro 2025 tournament.",
+        "confidence": null
+      },
+      {
+        "key": "Portugal's Euro 2025 Participation",
+        "value": "Portugal's women's soccer team is set to play in their third major tournament.",
+        "confidence": null
+      },
+      {
+        "key": "Worst Premier League Teams in Champions League",
+        "value": "The article ranks the worst Premier League teams to ever qualify for the Champions League.",
+        "confidence": null
+      },
+      {
+        "key": "Man City's Transfer Window Analysis",
+        "value": "The article analyzes Manchester City's transfer signings over the past three years.",
+        "confidence": null
+      },
+      {
+        "key": "Harry Kane's Trophy Ambitions",
+        "value": "Harry Kane aims to win silverware with Bayern Munich this season.",
+        "confidence": null
+      },
+      {
+        "key": "Mohamed Salah's Contract Situation",
+        "value": "Mohamed Salah's contract saga with Liverpool is overshadowing his successful season.",
+        "confidence": null
+      }
+    ],
+    "entities": [],
+    "context": "Scraped from URL: https://www.espn.com/soccer/, Title: Soccer on ESPN - Scores, Stats and Highlights"
+  }

@@ -2,7 +2,7 @@ from typing import Optional, Dict, Any
 import os
 
 from app.models.summarization import SummarizationRequest, SummarizationResponse
-from app.models.text import ContentSourceType
+from app.models.text_extraction import ContentSourceType
 from app.services.llm_provider import LLMProvider, LLMProviderFactory
 from app.services.pdf_parser import PDFParser
 from app.services.text_processor import TextProcessor
@@ -67,6 +67,7 @@ class SummarizationService:
         3. Maintains a logical flow
         4. Uses objective language
         5. Is concise but comprehensive
+        6. DO NOT include any formatting characters like backslashes or newlines in your final summary
         """
         
         # Combine all parts for final prompt

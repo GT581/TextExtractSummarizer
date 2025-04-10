@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional, Dict, Any
-from .text import ContentSourceType
+from .text_extraction import ContentSourceType
 
 
 class SummarizationRequest(BaseModel):

@@ -112,7 +112,7 @@ class PDFParser:
             r"^(?:CHAPTER|Chapter|SECTION|Section)\s+\d+[.:]\s*(.+)$",
             r"^\d+\.\d+\s+(.+)$",  # 1.1 Header
             r"^\d+\.\s+(.+)$",     # 1. Header
-            r"^[A-Z][A-Z\s]+[A-Z]$",  # ALL CAPS HEADERS
+            r"^[A-Z][A-Z\s]+[A-Z]$",  # ALL CAPS HEADERS #TODO: Found this may be incorrectly taking all caps content as sections
             r"^[IVX]+\.\s+(.+)$",    # Roman numerals: IV. Header
         ]
         

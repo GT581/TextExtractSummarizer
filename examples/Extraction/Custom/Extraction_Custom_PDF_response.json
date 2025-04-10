@@ -1,0 +1,109 @@
+{
+    "success": true,
+    "extraction_type": "custom",
+    "source_type": "pdf",
+    "data": {
+      "data": {
+        "mostSuccessfulTrades": [
+          {
+            "company": "Flying Tiger Airlines",
+            "return": "five-bagger",
+            "details": "Bought for $7 a share; hit $32¾"
+          },
+          {
+            "company": "Stop & Shop",
+            "return": "tenbagger",
+            "details": "Bought at $4 a share; ended up at $44"
+          },
+          {
+            "company": "Dreyfus",
+            "return": "hundred-bagger",
+            "details": "Rose from 40 cents a share in 1977 to nearly $40 a share in 1986"
+          },
+          {
+            "company": "Federated",
+            "return": "fiftyfold",
+            "details": "Before it was bought out by Aetna"
+          },
+          {
+            "company": "Franklin",
+            "return": "138-bagger",
+            "details": ""
+          },
+          {
+            "company": "Chrysler",
+            "return": "fifteenfold",
+            "details": "Bought at $6 a share; rose fivefold in less than two years"
+          },
+          {
+            "company": "Subaru",
+            "return": "156-bagger",
+            "details": "Bought at $2 a share in 1977; sold at $312 a share in 1986 (unadjusted for an 8-for-1 split)"
+          },
+          {
+            "company": "Dunkin' Donuts",
+            "return": "sixbagger",
+            "details": "A $10,000 investment resulted in a $47,000 gain in four years"
+          },
+          {
+            "company": "The Gap",
+            "return": "sixbagger",
+            "details": "A $10,000 investment resulted in a $250,000 gain"
+          },
+          {
+            "company": "La Quinta Motor Inns",
+            "return": "fifteenbagger",
+            "details": "Made elevenfold over a ten-year period"
+          },
+          {
+            "company": "Hanes",
+            "return": "sixbagger",
+            "details": "Before it was taken over by Consolidated Foods"
+          },
+          {
+            "company": "Service Corporation International",
+            "return": "twentybagger",
+            "details": "Before it got Wall Street’s full attention"
+          },
+          {
+            "company": "Automatic Data Processing",
+            "return": "600-bagger",
+            "details": "Rose from six cents a share to $40"
+          },
+          {
+            "company": "SmithKline Beckman",
+            "return": "tenbagger",
+            "details": "Rose from $7½ a share in 1977 to $72 a share in 1987"
+          },
+          {
+            "company": "Glaxo",
+            "return": "fourfold",
+            "details": "Rose from $7.50 a share in mid-1983 to $30 in 1987"
+          },
+          {
+            "company": "Pep Boys",
+            "return": "multifold",
+            "details": "Rose from less than $1 a share in 1981 to $9½ in 1985"
+          },
+          {
+            "company": "Waste Management",
+            "return": "hundredfold",
+            "details": ""
+          },
+          {
+            "company": "Envirodyne",
+            "return": "twelvefold",
+            "details": "Rose from $3 a share in 1985 to $36¾ in 1988"
+          },
+          {
+            "company": "Dell Computer",
+            "return": "889-bagger",
+            "details": "$10,000 invested generated an $8.9 million fortune"
+          }
+        ]
+      }
+    },
+    "key_value_pairs": [],
+    "entities": [],
+    "context": "PDF Document: Peter_Lynch_one-up-on-wall-street.pdf, Pages: 320, Title: One Up on Wall Street"
+  }
