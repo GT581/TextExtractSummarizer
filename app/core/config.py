@@ -22,7 +22,7 @@ class Settings(BaseSettings):
     """
     PROJECT_NAME: str = "Text Extract & Summarizer API"
     PROJECT_DESCRIPTION: str = "An API that summarizes content from multiple sources and extracts specific information from text"
-    PROJECT_VERSION: str = "0.1.0"
+    PROJECT_VERSION: str = "1.0.0"
     API_PREFIX: str = "/api"
     CORS_ORIGINS: List[str] = ["*"]
     
